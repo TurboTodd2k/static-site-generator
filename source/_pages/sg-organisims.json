@@ -1,0 +1,1112 @@
+{
+    "title": "TEST PAGE",
+    "description": "",
+    "keywords": "",
+    "hero": {
+        "rowSpacingClass": "marginBottomFull",
+        "heroColorStyle": "color:#321;",
+        "heroDepth": "small",
+        "headline": "Expecting in Stockton?",
+        "subhead": "test",
+        "subheadSupport": "<p>Exceptional care for you and your baby. Serving Stockton for more than 20 years.</p>",
+        "heroImg": "placeholder://400x150",
+        "heroImgSmall": "-santa-cruz/santa-cruz-ob-hero-mobile.jpg",
+        "anchor": [
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            },
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            }
+        ]
+    },
+    "heroCenter": {
+        "rowSpacingClass": "marginBottomFull",
+        "heroColorClass": "",
+        "heroDepth": "small",
+        "headline": "Expecting in Stockton?",
+        "subhead": "test",
+        "subheadSupport": "<p>Exceptional care for you and your baby. Serving Stockton for more than 20 years.</p>",
+        "heroImg": "-santa-cruz/santa-cruz-ob-hero.jpg",
+        "heroImgSmall": "-santa-cruz/santa-cruz-ob-hero-mobile.jpg",
+        "anchor": [
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            },
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            }
+        ]
+    },
+    "introRow2": {
+        "rowClass": "textCenter",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-12-flex",
+                "heading": {
+                    "headingTag": "h2",
+                    "headingClass": "other",
+                    "text": "multi cta test"
+                },
+                "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "PUSH THE BUTTON!",
+                        "href": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "PUSH THE BUTTON!",
+                        "href": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "PUSH THE BUTTON!",
+                        "href": "#"
+                    }
+                ]
+            }
+        ]
+    },
+    "introRow": {
+        "rowClass": "containerFlex",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-4-flex",
+                "vertPos": "columnFlexItemVTop",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h3",
+                    "text": "Lorem Ipsum Dolor Sit Amet Consectetur Adipi"
+                },
+                "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "vertPos": "columnFlexItemVTop",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h5",
+                    "text": "test heading"
+                },
+                "rawHTML": "test content",
+                "anchor": [
+                    {
+                        "class": "",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h4",
+                    "text": "Lorem Ipsum Dolor"
+                },
+                "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryWhite",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            }
+        ]
+    },
+    "videoRow": {
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex textCenter",
+                "center": "true",
+                "heading": {
+                    "headingTag": "h2",
+                    "headingClass": "ruleCenter",
+                    "text": "multi cta test"
+                },
+                "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "img": {
+                    "src": "placeholder://570x209"
+                }
+            }
+        ]
+    },
+    "fluid": {
+        "rowClass": "containerFlex bkgndColorDkGreen ",
+        "rowClass2": "containerFlex",
+        "rowSpacingClass": "padQuarter marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-4-flex",
+                "vertPos": "columnFlexItemVTop",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h5",
+                    "text": "test heading"
+                },
+                "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "vertPos": "columnFlexItemVTop",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h4",
+                    "rule": "true",
+                    "text": "test heading"
+                },
+                "rawHTML": "test content",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "img": {
+                    "src": "placeholder://400x150"
+                },
+                "heading": {
+                    "headingTag": "h5",
+                    "text": "test heading"
+                },
+                "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            }
+        ]
+    },
+    "gettingStarted": {
+        "rowClass": "",
+        "rowSpacingClass": "padQuarter marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-12-flex",
+                "vertPos": "columnFlexItemVTop",
+                "heading": {
+                    "headingTag": "h2",
+                    "text": "test heading",
+                    "headingClass": "",
+                    "rule": "true"
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "rawHTML": "content goes here",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "PUSH THE BUTTON!",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "img": {
+                    "src": "placeholder://570x300"
+                }
+            }
+        ]
+    },
+    "gallery2": {
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "galleryItemRollover": "true",
+                "overlay": {
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "OVERLAY",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>"
+                },
+                "base": {
+                    "bkgndColor": "colorBrandGreenLighten50",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "BASE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  quis nostrud exercitation ullamco laboris nisi , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "base": {
+                    "bkgndColor": "colorBrandGreenLighten50",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "STATIC",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-6-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "galleryItemRollover": "true",
+                "overlay": {
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "OVERLAY",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>"
+                },
+                "base": {
+                    "bkgndColor": "colorBrandGreenLighten50",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "BASE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  quis nostrud exercitation ullamco laboris nisi , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-6-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "base": {
+                    "bkgndColor": "colorBrandGreenLighten50",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "STATIC",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-12-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "base": {
+                    "bkgndColor": "colorBrandGreenLighten50",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "I SWITCH SIZE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "accordionSample": {
+        "rowClass": "accordion",
+        "rowSpacingClass": "marginBottomFull",
+        "widthClass": "col-md-12",
+        "accordionGroupID": "testAccordion",
+        "accordion": [
+            {
+                "accordionHeadID": "fred1",
+                "accordionContentID": "fred3",
+                "accordionHeading": {
+                    "headerClass": "fred",
+                    "columns": [
+                        {
+                            "widthClass": "col-auto-flex",
+                            "styleClass": "accordionState",
+                            "rawHTML": ""
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVCenter",
+                            "img": {
+                                "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                                "width": "80px",
+                                "height": "80px",
+                                "alt": "icon"
+                            }
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVCenter",
+                            "heading": {
+                                "headingTag": "h3",
+                                "text": "fred heading"
+                            },
+                            "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>"
+                        }
+                    ]
+                },
+                "accordionContent": {
+                    "panelClass": "",
+                    "rawHTML": "fred body"
+                }
+            },
+            {
+                "accordionHeadID": "fred4",
+                "accordionContentID": "fred6",
+                "accordionHeading": {
+                    "headerClass": "fred",
+                    "columns": [
+                        {
+                            "widthClass": "col-auto-flex",
+                            "styleClass": "accordionState",
+                            "rawHTML": ""
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVTop",
+                            "img": {
+                                "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                                "width": "80px",
+                                "height": "80px",
+                                "alt": "icon"
+                            }
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVTop",
+                            "heading": {
+                                "headingTag": "h3",
+                                "text": "fred heading"
+                            },
+                            "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>"
+                        }
+                    ]
+                },
+                "accordionContent": {
+                    "panelClass": "",
+                    "rawHTML": "fred body"
+                }
+            }
+        ]
+    },
+    "drRow": {
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "drs": [
+            {
+                "widthClass": "col-md-3-flex",
+                "image": {
+                    "src": "placeholder://175x200",
+                    "alt": "",
+                    "class": "cornerRound"
+                },
+                "drName": "Jennifer Phung, M.D.",
+                "drFocus": "Women's Health, Basic Infertility Work-up And Laparoscopic & Robotic Surgery. ",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=25651&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-jennifer-t-phung.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "image": {
+                    "src": "placeholder://175x200",
+                    "alt": "",
+                    "class": "cornerRound"
+                },
+                "drName": "Kevin Rine, M.D.",
+                "drFocus": "Women's Health, Birth Control, Child Birth, Infertility, Menopause, Menstrual Pain ",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9289&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-kevin-e-rine9289.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "image": {
+                    "src": "placeholder://175x200",
+                    "alt": "",
+                    "class": "cornerRound"
+                },
+                "drName": "Patrick Snyder, M.D.",
+                "drFocus": "Women's Health, Contraception, Hysteroscopy, Pregnancy",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9315&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-patrick-l-snyder.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "image": {
+                    "src": "placeholder://175x200",
+                    "alt": "",
+                    "class": "cornerRound"
+                },
+                "drName": "Adam Dodd, M.D.",
+                "drFocus": "Women's Health, Breast Cancer Prevention, Cervical Cancer Prevention, Infertility",
+                "phone-number": {
+                    "phNumMachine": "1-209-944-9799",
+                    "phNumHuman": "(209) 944-9799"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=20168&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-padam-dodd.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "maps": [
+        {
+            "rowClass": "",
+            "rowSpacingClass": "marginBottomFull",
+            "name": "map1",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "37.817451",
+                        "markerLong": "-122.2684164",
+                        "text": "Alta Bates",
+                        "rawHTML": "<p><center><b>Alta Bates Summit Medical Center</b></center>Specialties; <b>Orthopedics, Obstetrics</b><br>450 30th St, Oakland, Ca</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Mills-Peninsula",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "map2",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "38.817451",
+                        "markerLong": "-120.2684164",
+                        "text": "Yer Mama",
+                        "rawHTML": "<p>Yer Mama</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Bob's Thrill-o-rama",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        }
+    ],
+    "bottomBlocks": {
+        "rowClass": "fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "block1": {
+            "quote": "From the moment we arrived at the hospital, I felt confident that I was getting the best care. Everyone was unbelievably experienced and knowledgeable. And I could tell all of them love their jobs. There is no doubt that my next baby will be born at Sutter!",
+            "userName": "Nicole K, OB Patient"
+        },
+        "block2": {
+            "heading": {
+                "headingTag": "h3",
+                "headingClass": "",
+                "text": "From Annual Check-Ups to Baby Bumps, We’ve Got You Covered."
+            },
+            "rawHTML": "A happy life starts with a healthy beginning. With more than 30,000 babies born each year at Sutter Health Hospitals, the physicians, nurses and support staff understand what it takes to provide the very best experience for infants, new mothers and their families."
+        },
+        "block3": {
+            "heading": {
+                "headingTag": "h3",
+                "headingClass": "",
+                "text": "From Annual Check-Ups to Baby Bumps, We’ve Got You Covered."
+            },
+            "rawHTML": "Contraceptive Counseling <br /> High-Risk Pregnancy Management <br /> Prenatal Care <br /> Nurse-Midwife <br /> Birthing Centers <br /> And More",
+            "anchor": [
+                {
+                    "cta": "PUSH THE BUTTON!",
+                    "address": "#",
+                    "class": "btn custom-btn btnPrimaryOrange"
+                }
+            ]
+        },
+        "block4": {
+            "src": "placeholder://570x288",
+            "alt": "an image"
+        }
+    },
+    "tout": {
+        "rowClass": "fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-4-flex",
+                "bkgndColor": "borderDkGreen",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "",
+                    "text": "Specialized Care for Our Tiniest Patients"
+                }
+            },
+            {
+                "center": "true",
+                "widthClass": "col-md-8-flex",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "rawHTML": "<p>Our nine Newborn Intensive Care Units (NICU) provide 24-hour care by highly experienced, board-certified neonatologists and neonatal nursing teams.</p>"
+            }
+        ]
+    },
+    "fwimage": {
+        "src": "assets/images/-healthy-living/sutter-san-jose-full-width-mother-son.jpg",
+        "alt": ""
+    },
+    "repman": {
+        "rowClass": "fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorDkGreen",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "",
+                    "text": "Street Nurse Program"
+                },
+                "rawHTML": "<p>Our Street Nurse Program provides medical treatment right at ground level. For Amanda Bucchina, it's all in a day's work.</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "src": "http://players.brightcove.net/817826402001/79bcaa57-54d7-453c-9f1f-8ab3ef7b15de_default/index.html?videoId=5149773141001"
+            },
+            {
+                "img": {
+                    "src": "placeholder://570x320"
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorDkGreen",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "",
+                    "text": "Street Nurse Program"
+                },
+                "rawHTML": "<p>Our Street Nurse Program provides medical treatment right at ground level. For Amanda Bucchina, it's all in a day's work.</p>"
+            }
+        ]
+    },
+    "icons": {
+        "columns": [
+            {
+                "widthClass": "col-md-4-flex",
+                "iconCol": {
+                    "widthClass": "col-md-3-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "img": {
+                        "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                        "width": "80px",
+                        "height": "80px",
+                        "alt": "icon"
+                    }
+                },
+                "textCol": {
+                    "widthClass": "col-md-9-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "heading": {
+                        "headingTag": "h3",
+                        "text": "test heading"
+                    },
+                    "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>"
+                }
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "iconCol": {
+                    "widthClass": "col-md-3-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "img": {
+                        "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                        "width": "80px",
+                        "height": "80px",
+                        "alt": "icon"
+                    }
+                },
+                "textCol": {
+                    "widthClass": "col-md-9-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "heading": {
+                        "headingTag": "h3",
+                        "text": "test heading"
+                    },
+                    "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnPrimaryOrange",
+                            "cta": "Five Stars for Paient Care",
+                            "address": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-md-4-flex",
+                "iconCol": {
+                    "widthClass": "col-md-3-flex",
+                    "vertAlign": "columnFlexItemVTop",
+                    "img": {
+                        "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                        "width": "80px",
+                        "height": "80px",
+                        "alt": "icon"
+                    }
+                },
+                "textCol": {
+                    "widthClass": "col-md-9-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "heading": {
+                        "headingTag": "h3",
+                        "text": "test heading"
+                    },
+                    "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "cta": "Five Stars for Paient Care",
+                            "address": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "iconCol": {
+                    "widthClass": "col-md-2-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "img": {
+                        "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                        "width": "80px",
+                        "height": "80px",
+                        "alt": "icon"
+                    }
+                },
+                "textCol": {
+                    "widthClass": "col-md-10-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "heading": {
+                        "headingTag": "h2",
+                        "text": "Schedule medical appointments"
+                    }
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "iconCol": {
+                    "widthClass": "col-md-3-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "img": {
+                        "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                        "width": "80px",
+                        "height": "80px",
+                        "alt": "icon"
+                    }
+                },
+                "textCol": {
+                    "widthClass": "col-md-9-flex",
+                    "vertAlign": "columnFlexItemVCenter",
+                    "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "cta": "Five Stars for Paient Care",
+                            "address": "#"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "linkout": {
+        "rowClass": "borderDkGreen fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "ruleCenter",
+                    "text": "Among the Nations Finest"
+                },
+                "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "quote": {
+                    "quote": "“From the moment we arrived at the hospital, I felt confident that I was getting the best care. Everyone was unbelievably experienced and knowledgeable. And I could tell all of them love their jobs. There is no doubt that my next baby will be born at Sutter!”",
+                    "userName": "Nicole K, OB Patient"
+                }
+            }
+        ]
+    },
+    "linkout2": {
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex textCenter",
+                "center": "true",
+                "bkgndColor": "colorBrandGreenLighten50",
+                "heading": {
+                    "headingTag": "h2",
+                    "headingClass": "",
+                    "text": "Get Started With Sutter Heart Care"
+                },
+                "rawHTML": "",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "img": {
+                    "src": "placeholder://570x200"
+                }
+            }
+        ]
+    },
+    "carousels": [
+        {
+            "rowClass": "drRow textCenter",
+            "rowSpacingClass": "marginBottomThreeQuarters",
+            "name": "test",
+            "path": "assets/js/carousels/multiple-items.js",
+            "drs": [
+                {
+                    "widthClass": "col-md-3-flex",
+                    "image": {
+                        "src": "assets/images/-drs/Phung.jpg",
+                        "alt": "",
+                        "class": "cornerRound",
+                        "width": "153",
+                        "height": "191"
+                    },
+                    "drName": "Jennifer Phung, M.D.",
+                    "drFocus": "Women's Health, Basic Infertility Work-up And Laparoscopic & Robotic Surgery. ",
+                    "phone-number": {
+                        "phNumMachine": "1-209-948-5940",
+                        "phNumHuman": "(209) 948-5940"
+                    },
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnPrimaryOrange",
+                            "cta": "Request an Appointment",
+                            "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=25651&src=web"
+                        },
+                        {
+                            "class": "",
+                            "cta": "View Profile",
+                            "address": "http://www.sutterhealth.org/dr-jennifer-t-phung.html"
+                        }
+                    ]
+                },
+                {
+                    "widthClass": "col-md-3-flex",
+                    "image": {
+                        "src": "assets/images/-drs/Rine.jpg",
+                        "alt": "",
+                        "class": "cornerRound",
+                        "width": "153",
+                        "height": "191"
+                    },
+                    "drName": "Kevin Rine, M.D.",
+                    "drFocus": "Women's Health, Birth Control, Child Birth, Infertility, Menopause, Menstrual Pain ",
+                    "phone-number": {
+                        "phNumMachine": "1-209-948-5940",
+                        "phNumHuman": "(209) 948-5940"
+                    },
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnPrimaryOrange",
+                            "cta": "Request an Appointment",
+                            "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9289&src=web"
+                        },
+                        {
+                            "class": "",
+                            "cta": "View Profile",
+                            "address": "http://www.sutterhealth.org/dr-kevin-e-rine9289.html"
+                        }
+                    ]
+                },
+                {
+                    "widthClass": "col-md-3-flex",
+                    "image": {
+                        "src": "assets/images/-drs/Snyder.jpg",
+                        "alt": "",
+                        "class": "cornerRound",
+                        "width": "153",
+                        "height": "191"
+                    },
+                    "drName": "Patrick Snyder, M.D.",
+                    "drFocus": "Women's Health, Contraception, Hysteroscopy, Pregnancy",
+                    "phone-number": {
+                        "phNumMachine": "1-209-948-5940",
+                        "phNumHuman": "(209) 948-5940"
+                    },
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnPrimaryOrange",
+                            "cta": "Request an Appointment",
+                            "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9315&src=web"
+                        },
+                        {
+                            "class": "",
+                            "cta": "View Profile",
+                            "address": "http://www.sutterhealth.org/dr-patrick-l-snyder.html"
+                        }
+                    ]
+                },
+                {
+                    "widthClass": "col-md-3-flex",
+                    "image": {
+                        "src": "assets/images/-drs/Dodd.jpg",
+                        "alt": "",
+                        "class": "cornerRound",
+                        "width": "153",
+                        "height": "191"
+                    },
+                    "drName": "Adam Dodd, M.D.",
+                    "drFocus": "Women's Health, Breast Cancer Prevention, Cervical Cancer Prevention, Infertility",
+                    "phone-number": {
+                        "phNumMachine": "1-209-944-9799",
+                        "phNumHuman": "(209) 944-9799"
+                    },
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnPrimaryOrange",
+                            "cta": "Request an Appointment",
+                            "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=20168&src=web"
+                        },
+                        {
+                            "class": "",
+                            "cta": "View Profile",
+                            "address": "http://www.sutterhealth.org/dr-padam-dodd.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "charts": [
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart1.js",
+            "name": "myChart1",
+            "width": "200",
+            "height": "200"
+        },
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart2.js",
+            "name": "myChart2",
+            "width": "200",
+            "height": "200"
+        },
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart3.js",
+            "name": "myChart3",
+            "width": "200",
+            "height": "200"
+        }
+    ]
+}

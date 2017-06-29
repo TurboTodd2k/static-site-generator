@@ -1,0 +1,143 @@
+/*------------------------------------*\
+    $TABLE OF CONTENTS
+    based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
+\*------------------------------------*/
+/**
+ * ABSTRACTS..............Declarations of Sass variables and mixins
+ * Mixins.................Mixin styles that are included in the site
+ * Variables..............Variables for styles that are used in the site
+ *
+ * BASE...................Base/reset styles for certain elements
+ * Animation..............Animation base styles
+ * Forms..................Form field base styles
+ * Global Classes.........Base styles used across the entirety of the site
+ * Headings...............Base styles for headings (h1, h2, etc.)
+ * Links..................Base styles for links
+ * Lists..................Base styles lists
+ * Main...................Base styles for main section
+ * Media..................Base styles for various media (videos, iframes, etc.)
+ * Reset..................Reset base styles (i.e. Display block on certain elements)
+ * Tables.................Base styles for tables
+ * Text...................Base styles for text elements
+ *
+ * COMPONENTS.............Styles for certain components
+ * Accordion..............Styles for accordion components
+ * Article................Styles for article components
+ * Blocks.................Styles for block components
+ * Buttons................Styles for button components
+ * Carousels..............Styles for carousels
+ * Comments...............Styles for comments component
+ * Footer.................Styles for the footer component
+ * Forms..................Styles for form components
+ * Header.................Styles for header component
+ * Icons..................Styles for icons
+ * Lists..................Styles for types of lists
+ * Main...................Styles for main section
+ * Messaging..............Styles for alerts/messaging components
+ * Nav....................Styles for navigation components
+ * Sections...............Styles for section components
+ * Tabs...................Styles for tabs
+ * Text...................Styles for text components
+ * Tooltip................Styles for tooltips
+
+ *
+ * LAYOUT.................Styles that affect the site's general layout
+ * Layout.................Layout styles
+ *
+ * UTILITIES..............Styles that require a utility class
+ *
+ */
+
+
+
+/*------------------------------------*\
+    $BOOTSTRAP
+\*------------------------------------*/
+
+/* base bootstrap*/
+// @import "bootstrap.css";
+
+/*bootstrap flex addition*/
+// @import "bootstrap-flex.css";
+
+/*font-awesome*/
+// @import "font-awesome.min.css";
+
+
+
+
+/*------------------------------------*\
+    $ABSTRACTS
+\*------------------------------------*/
+@import "scss/abstracts/mixins";
+@import "scss/abstracts/variables";
+
+
+
+
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+@import "scss/base/body";
+@import "scss/base/colors";
+// @import "scss/base/animation";
+// @import "scss/base/forms";
+@import "scss/base/global-classes";
+@import "scss/base/headings";
+@import "scss/base/links";
+@import "scss/base/lists";
+// @import "scss/base/main";
+// @import "scss/base/media";
+// @import "scss/base/reset";
+// @import "scss/base/tables";
+@import "scss/base/text";
+@import "scss/base/spacing";
+@import "scss/base/img";
+@import "scss/base/panel";
+@import "scss/base/html";
+
+
+
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+// @import "scss/components/blocks";
+@import "scss/components/buttons";
+@import "scss/components/carousels";
+@import "scss/components/footer";
+// @import "scss/components/footer-nav";
+// @import "scss/components/forms";
+// @import "scss/components/fields";
+@import "scss/components/header";
+// @import "scss/components/logo";
+// @import "scss/components/icons";
+@import "scss/components/lists";
+// @import "scss/components/messaging";
+@import "scss/components/primary-nav";
+@import "scss/components/nav";
+// @import "scss/components/page-header";
+// @import "scss/components/sections";
+@import "scss/components/text";
+// @import "scss/components/box";
+// @import "scss/components/feedback";
+@import "scss/components/styleguide";
+@import "scss/components/hero";
+@import "scss/components/gallery";
+@import "scss/components/google-map";
+@import "scss/components/accordion";
+@import "scss/components/dr-row";
+@import "scss/components/video";
+@import "scss/components/styleguide";
+@import "scss/components/page-top";
+@import "scss/components/media-list";
+
+
+
+
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+// @import "scss/layout/layout";

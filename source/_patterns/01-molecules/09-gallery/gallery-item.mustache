@@ -1,0 +1,47 @@
+<!-- item one -->
+<div class="{{this.widthClass}} galleryItemParent {{#if galleryItemRollover}}galleryItemRollover{{/if}}">
+    <div class="columnFlex  {{#if img}} noPad {{/if}} {{bkgndColor}} {{class}}">
+
+        <div class="galleryItem columnFlexItem columnFlexItemVCenter ">
+            {{! > general-content-flex base }}
+
+
+{{# base}}
+				<!-- this is the centered content -->
+				<div class="columnFlexItem columnFlexItemVTop ">
+					{{> general-content-noCTA-flex  }}
+				</div>
+
+				{{#or button anchor}}
+					<div class="columnFlexItem columnFlexItemVBottom">
+						<div class="  rowFlex rowFlexMultiCTA ">
+							{{# if button}}
+								{{#each button}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> button}}
+									</div>
+								{{/each}}
+							{{/if}}
+							{{#if anchor}}
+								{{#each anchor}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> anchor}}
+									</div>
+								{{/each}}
+							{{/if}}
+						</div>
+					</div>
+				{{/or}}
+{{/base}}
+
+
+
+        </div>
+		{{#if overlay}}
+	         <div class="galleryOverlay columnFlexItem columnFlexItemVCenter">
+	            {{> general-content-flex overlay }}
+	        </div>
+		{{/if}}
+    </div>
+
+</div>

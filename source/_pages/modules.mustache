@@ -1,0 +1,93 @@
+<style type="text/css">
+	.containerFlex {
+    padding: 0;
+}
+.container {outline:1px solid red;}
+</style>
+
+
+<h2 class="moduleSeperator">Headings</h2>
+<div class="container">
+<h1>h1 - Lorem Ipsum Dolor Sit Amet</h1>
+<h2>h2 - Lorem Ipsum Dolor Sit Amet Consectetur A</h2>
+<h3>h3 - Lorem Ipsum Dolor Sit Amet Co</h3>
+<h4>h4 - Lorem Ipsum Dolor Sit Amet Consectet</h4>
+<h5>h5 - Lorem Ipsum Dolor</h5>
+<h6>h6 - Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing</h6>
+</div>
+
+
+<h2 class="moduleSeperator">Heros</h2>
+{{> hero-left page.hero }}
+{{> hero-center page.heroCenter}}
+{{! need hotspot hero here }}
+
+<h2 class="moduleSeperator">Generic Content Flex Module</h2>
+{{> generic-content-flex page.introRow2 }}
+{{> generic-content-flex page.introRow }}
+{{> generic-content-flex page.videoRow }}
+{{> generic-content-flex-fluid page.fluid }}
+{{> generic-content-flex page.linkout2}}
+{{> generic-content-flex page.tout}}
+{{> generic-content-flex page.gettingStarted}}
+
+<h2 class="moduleSeperator">Generic Content Bootstrap Module</h2>
+{{! need to build out bog-standard bootstrap stuff here }}
+
+<h2 class="moduleSeperator">Six-Pack Layout with Roll-overs | roll-over has limited availability</h2>
+{{> gallery-flex page.gallery2 }}
+
+<h2 class="moduleSeperator">Standard Six-Pack Layout</h2>
+{{> gallery-flex page.gallery2 }}
+
+<h2 class="moduleSeperator">Portfolio</h2>
+{{! need to build portfolio }}
+
+<h2 class="moduleSeperator">Accordion</h2>
+{{> accordion page.accordionSample}}
+
+<h2 class="moduleSeperator">Dr Row</h2>
+{{> dr-row-flex page.drRow}}
+
+<h2 class="moduleSeperator">Google Map</h2>
+<h3>a map</h3> {{> google-map page.maps.[0]}}
+<h3>a different map from the same data source</h3> {{> google-map page.maps.[1]}}
+
+<h2 class="moduleSeperator">Reputation Management</h2>
+{{> reputation-management-flex page.repman}}
+
+
+<h2 class="moduleSeperator">Full Width Image</h2>
+{{> full-width-image page.fwimage}}
+
+<h2 class="moduleSeperator">Bottom of Page Renforcement</h2>
+{{> bottom-grid-flex page.bottomBlocks }}
+{{> footer-linkout-flex page.linkout}}
+
+<h2 class="moduleSeperator">Icon Rows</h2>
+{{> generic-icon-flex page.icons}}
+{{! need to build full width cta row }}
+
+<h2 class="moduleSeperator">Carousel</h2>
+{{> dr-carousel page.carousels.[0]}}
+
+<h2 class="moduleSeperator">Charts</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>chart 1</h3> {{> chart page.charts.[0]}}
+        </div>
+        <div class="col-md-6">
+            <h3>chart 1</h3> {{> chart page.charts.[1]}}
+        </div>
+        <div class="col-md-6">
+            <h3>chart 1</h3> {{> chart page.charts.[2]}}
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--utility -->
+{{> anchor}}

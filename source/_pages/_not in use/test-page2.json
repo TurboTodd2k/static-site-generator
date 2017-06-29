@@ -1,0 +1,114 @@
+{
+
+
+
+"sectionTest" : [
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "test"
+		},
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "other test"
+		},
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "mommy!"
+		}
+	],
+
+
+
+
+
+
+"test": "Hells Yeah!!!!",
+
+	"heroID": "hero",
+	"hotspotList": [
+		{
+			"hotspot": {
+				"href": "#",
+				"linkText": "this is a link"
+			}
+		},
+		{
+			"hotspot": {
+				"href": "#",
+				"linkText": "this is a link"
+			}
+		}
+	],
+	"headerList": [
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "test"
+		},
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "other test"
+		},
+		{
+			"sectionTitle": "Smart Prouducts",
+			"copy": "mommy!"
+		}
+	],
+	"accordianList": [
+		{
+			"accordianID": "products",
+			"sectionTitle": "Prouducts Title",
+
+			"listGroupResidential": [
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"}
+			],
+
+			"listGroupBusiness": [
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"}
+			],
+
+			"buttonGroupList": [
+				{ "buttonData": "residental", "cta": "Residental"},
+				{ "buttonData": "business", "cta": "Business"}
+			]
+		},
+		{
+			"accordianID": "tools",
+			"sectionTitle": "Tools Title",
+			"listGroup": [
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"}
+			]
+		},
+		{
+			"accordianID": "programs",
+			"sectionTitle": "Programs Title",
+			"listGroup": [
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"},
+				{"text": "Lorem Ipsum Dolor Sit Amet Cons"}
+			]
+		}
+	],
+	"buttonGroupClass": "marginBottomQuarter",
+	"buttonClass": "inactive"
+
+}
+
+
+

@@ -1,0 +1,36 @@
+<!--Full Width Expand Module-->
+<div class="container accordion {{rowClass}} {{rowSpacingClass}} ">
+    <div class="row">
+        <!-- header content here -->
+        <div class="{{widthClass}}">
+            <div class="panel-group" id="{{accordionGroupID}}" role="tablist" aria-multiselectable="true">
+                {{#each accordion}}
+                    <div class="panel panel-default">
+                        <!-- accordion content -->
+                        <div id="{{accordionContentID}}" class="panel-collapse collapse {{ accordionContent.panelClass}}" role="tabpanel" aria-labelledby="{{accordionHeadID}}">
+                            <div class="panel-body">
+                                <!-- content goes here -->
+                                {{{accordionContent.rawHTML}}}
+                            </div>
+                        </div>
+                        <!-- accordion heading -->
+                        <div class="panel-heading" role="tab" id="{{accordionHeadID}}">
+                            <div class="panel-title">
+                                <!-- heading content goes here -->
+                                <a role="button" data-toggle="collapse" data-parent="#{{../accordionGroupID}}" href="#{{accordionContentID}}" aria-expanded="true" aria-controls="{{accordionContentID}}" class="{{accordionHeading.headerClass}} collapsed">
+                                    <div class="headingTrigger textCenter">
+                                        {{#each accordionHeading.columns}}
+                                            <div class=" {{styleClass}}  ">
+                                                {{> general-content-noCTA-flex }}
+                                            </div>
+                                        {{/each}}
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

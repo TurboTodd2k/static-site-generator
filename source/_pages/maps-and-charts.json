@@ -1,0 +1,145 @@
+{
+    "maps": [
+        {
+            "div": "#map",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "37.817451",
+                        "markerLong": "-122.2684164",
+                        "text": "Alta Bates",
+                        "rawHTML": "<p><center><b>Alta Bates Summit Medical Center</b></center>Specialties; <b>Orthopedics, Obstetrics</b><br>450 30th St, Oakland, Ca</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Mills-Peninsula",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        },
+        {
+            "div": "#map",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "37.817451",
+                        "markerLong": "-122.2684164",
+                        "text": "Alta Bates",
+                        "rawHTML": "<p><center><b>Alta Bates Summit Medical Center</b></center>Specialties; <b>Orthopedics, Obstetrics</b><br>450 30th St, Oakland, Ca</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Mills-Peninsula",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        }
+    ],
+    "charts": {
+        "chart1": {
+            "name": "myChart",
+            "width": "300",
+            "height": "400",
+            "type": "bar",
+            "data": {
+                "axisLabels": [
+                    {"axisLableName": "Red"},
+                    {"axisLableName": "Red"},
+                    {"axisLableName": "Red"},
+                    {"axisLableName": "Red"},
+                    {"axisLableName": "Red"},
+                    {"axisLableName": "Red"}
+                ],
+                "datasets": [
+                    {
+                        "datasetLabel": "# of Votes",
+                        "data": [
+                            {"datapoint": "12"},
+                            {"datapoint": "2"},
+                            {"datapoint": "8"},
+                            {"datapoint": "12"},
+                            {"datapoint": "17"},
+                            {"datapoint": "11"}
+                        ],
+                        "backgroundColor": [
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"}
+                        ],
+                        "borderColor": [
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"}
+                        ],
+                        "borderWidth": 1
+                    },
+                    {
+                        "datasetLabel": "# of People who Care",
+                        "data": [
+                            {"datapoint": "8"},
+                            {"datapoint": "15"},
+                            {"datapoint": "3"},
+                            {"datapoint": "10"},
+                            {"datapoint": "5"},
+                            {"datapoint": "17"}
+                        ],
+                        "backgroundColor": [
+                            {"backgroundColor": "rgba(150, 100, 32, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(45, 140, 90, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"},
+                            {"backgroundColor": "rgba(255, 99, 132, 0.2)"}
+                        ],
+                        "borderColor": [
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"},
+                            {"borderColor": "rgba(255,99,132,1)"}
+                        ],
+                        "borderWidth": "1"
+                    }
+                ]
+            },
+            "options": {
+                "scales": {
+                    "yAxes": [
+                        {
+                            "ticks": {
+                                "beginAtZero": true
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

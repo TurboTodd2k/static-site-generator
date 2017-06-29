@@ -1,0 +1,16 @@
+/*
+anchors
+========================================================================*/
+
+a {
+    text-decoration: underline;
+    color: #006699;
+    /* IE compatibility */
+    min-height: 1px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}

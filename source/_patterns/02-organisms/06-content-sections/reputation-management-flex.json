@@ -1,0 +1,49 @@
+{
+    "repman": {
+        "rowClass": "fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorDkGreen",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "",
+                    "text": "Street Nurse Program"
+                },
+                "rawHTML": "<p>Our Street Nurse Program provides medical treatment right at ground level. For Amanda Bucchina, it's all in a day's work.</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "src": "http://players.brightcove.net/817826402001/79bcaa57-54d7-453c-9f1f-8ab3ef7b15de_default/index.html?videoId=5149773141001"
+            },
+            {
+                "img": {
+                    "src": "assets/images/-healthy-living/surt16_851517G_rm_web_v1_street-nurse.png"
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorDkGreen",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "",
+                    "text": "Street Nurse Program"
+                },
+                "rawHTML": "<p>Our Street Nurse Program provides medical treatment right at ground level. For Amanda Bucchina, it's all in a day's work.</p>"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+/*========================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!STYLE GUIDE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================*/
+
+//color swatches
+
+.colorSwatches {
+	padding-left: 0;
+}
+
+.colorSwatches li:first-of-type {
+	margin-left: 0;
+}
+
+.colorSwatches li {
+	display: inline-block;
+}
+
+.colorSwatches div {
+	width: 100%;
+	min-width: 80px;
+	height: 80px;
+}
+
+
+
+.stickyNav {
+	position: sticky;
+	position: -webkit-sticky;  // required for Safari
+	top: 0;
+	z-index: 500;
+}
+
+
+
+
+/*
+seperators for style guide content
+==========================================*/
+.moduleSeperator {
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.moduleSeperator p {
+    font-size: 1em;
+    margin: 0;
+    color: #000;
+}
+

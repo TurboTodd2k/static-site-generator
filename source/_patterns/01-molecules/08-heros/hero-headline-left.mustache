@@ -1,0 +1,29 @@
+<div class="imgHeroHeadlineLeft " style="color:{{heroColorStyle}};">
+
+    <h1>{{{headline}}}</h1>
+
+	{{#if subhead}}
+	    <h2 class="fauxH2">{{{subhead}}}</h2>
+    {{/if}}
+
+	{{#if subheadSupport}}
+	    {{{subheadSupport}}}
+	{{/if}}
+
+	{{#or button anchor}}
+		<p>
+			{{# if button}}
+				{{#each button}}
+					{{> button}}
+				{{/each}}
+			{{/if}}
+
+			{{#if anchor}}
+				{{#each anchor}}
+					{{> anchor}}
+				{{/each}}
+			{{/if}}
+		</p>
+	{{/or}}
+
+</div>

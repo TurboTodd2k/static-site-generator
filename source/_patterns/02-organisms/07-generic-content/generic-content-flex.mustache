@@ -1,0 +1,67 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+	<!-- flex row -->
+	<div class=" rowFlex ">
+		{{# this.columns }}
+		<div class="{{this.widthClass}}">
+			<div class="columnFlex {{bkgndColor}} {{# unless heading}} {{# unless body}} {{# unless button}} {{#unless rawHTML}} noPad {{/ unless}} {{/ unless}} {{/ unless}} {{/ unless}}">
+			<!-- this picks which version of the  flexItem gets used -->
+			{{# if center}}
+
+				<!-- this is the bottom aligned CTAs -->
+				<div class="columnFlexItem columnFlexItemVCenter ">
+					{{> general-content-noCTA-flex }}
+					<!-- this inserts the CTAs -->
+					{{#or button anchor}}
+						<div class="  rowFlex rowFlexMultiCTA ">
+							{{# if button}}
+								{{#each button}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> button}}
+									</div>
+								{{/each}}
+							{{/if}}
+							{{#if anchor}}
+								{{#each anchor}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> anchor}}
+									</div>
+								{{/each}}
+							{{/if}}
+						</div>
+					{{/or}}
+				</div>
+
+			{{else}}
+
+				<!-- this is the centered content -->
+				<div class="columnFlexItem columnFlexItemVTop ">
+					{{> general-content-noCTA-flex }}
+				</div>
+
+				{{#or button anchor}}
+					<div class="columnFlexItem columnFlexItemVBottom">
+						<div class="  rowFlex rowFlexMultiCTA ">
+							{{# if button}}
+								{{#each button}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> button}}
+									</div>
+								{{/each}}
+							{{/if}}
+							{{#if anchor}}
+								{{#each anchor}}
+									<div class="columnFlexItem flexMultCTA">
+										{{> anchor}}
+									</div>
+								{{/each}}
+							{{/if}}
+						</div>
+					</div>
+				{{/or}}
+
+			{{/ if}}
+			</div>
+		</div>
+		{{/ this.columns }}
+	</div>
+</div>

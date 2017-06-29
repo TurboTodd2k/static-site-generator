@@ -1,0 +1,17 @@
+/*Centered Bootstrap Col*/
+
+/* centered columns styles */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* inline-block space fix */
+    margin-right: -4px;
+    /* reset the text-align */
+    text-align: left;
+    vertical-align: top;
+}

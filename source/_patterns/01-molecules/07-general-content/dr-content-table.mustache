@@ -1,0 +1,43 @@
+
+	<!--Doctor Start-->
+	<table class="drTable">
+		<tr>
+			<td>
+				{{> image image}}
+		            <div class="doctorSeperator {{#unless isLast}}drRuleOdd{{/unless}}">
+		                <h3 class="doctorname">{{drName}}</h3>
+		                <p class="doctorinfo">
+		                <span class="specialinfoHighlite">Areas of Focus: </span>{{drFocus}}
+		                </p>
+		                <p class="doctorinfo">
+		                    {{> phone-number phone-number}}
+		                </p>
+		            </div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				{{#or button anchor}}
+					 <div class="columnFlexItem columnFlexItemVBottom">
+						<div>
+							{{# if button}}
+								{{#each button}}
+									{{> button}}
+								{{/each}}
+							{{/if}}
+
+							{{#if anchor}}
+								{{#each anchor}}
+									{{> anchor}} <br />
+								{{/each}}
+							{{/if}}
+						</div>
+					</div>
+				{{/or}}
+			</td>
+		</tr>
+	</table>
+	<!--Doctor End-->
+
+
+

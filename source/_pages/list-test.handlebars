@@ -1,0 +1,21 @@
+<style>
+	ul.media-list li {
+		list-style-type: none;
+		margin-left: 0;
+	}
+</style>
+
+
+<div class="container">
+	<h2>Definition List</h2>
+	{{> definition page}}
+
+	<h2>Ordered List</h2>
+	{{> ordered page.orderedList}}
+
+	<h2>Unordered List</h2>
+	{{> unordered page.unorderedList}}
+
+	<h2>Media List</h2>
+	{{> media-list page}}
+</div>

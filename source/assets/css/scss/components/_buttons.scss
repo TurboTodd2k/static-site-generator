@@ -1,0 +1,155 @@
+/*
+Buttons
+========================================================================*/
+
+/*
+@styleguide
+
+# Buttons
+
+## Base Style
+
+These set up the common attributes for all buttons/anchors
+
+<a href="" class="btn custom-btn">Sample Button</a>
+
+	<a href="" class="btn custom-btn">Sample Button</a>
+
+*/
+.btn {
+    white-space: normal;
+}
+
+.custom-btn {
+    font-weight: 500;
+    line-height: 1.25em;
+    min-width: 100px;
+
+    /* height: 2.9em; */
+    padding: .65em 1.05em;
+
+    /* white-space: initial; */
+    letter-spacing: 1px;
+    border-radius: 10px;
+
+    /* padding-bottom: .7em; */
+    text-decoration: none;
+}
+
+.rowFlex.rowFlexMultiCTA .columnFlexItem {
+    margin-right: 10px;
+}
+
+.rowFlex.rowFlexMultiCTA .columnFlexItem:last-child {
+    margin-right: 0;
+}
+
+/*
+@styleguide
+
+## Colors
+
+These set up the colors for all buttons/anchors
+
+<a href="" class="btn custom-btn btnPrimaryOrange">Sample Button</a>
+<a href="" class="btn custom-btn btnPrimaryWhite">Sample Button</a>
+<a href="" class="btn custom-btn btnSecondaryWhite">Sample Button</a>
+
+	<a href="" class="btn custom-btn btnPrimaryOrange">Sample Button</a>
+	<a href="" class="btn custom-btn btnPrimaryWhite">Sample Button</a>
+	<a href="" class="btn custom-btn btnSecondaryWhite">Sample Button</a>
+
+*/
+.btnPrimaryOrange {
+    color: white;
+    border: 0;
+    background-color: #f68026;
+}
+
+.btnPrimaryOrange a {
+    color: #fff;
+}
+
+.btnPrimaryWhite {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btnPrimaryWhite a {
+    color: #444;
+}
+
+.btnSecondaryWhite {
+    /* color: #666; */
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btnPrimaryOrange a,
+.btnPrimaryWhite a,
+.btnSecondaryWhite a {
+    text-decoration: none;
+
+    /* color: inherit; */
+}
+
+.btnPrimaryOrange:hover,
+.btnPrimaryWhite:hover {
+    /* border: 1px solid #e5e5e5; */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btnPrimaryOrange:hover a,
+.btnPrimaryWhite:hover a {
+    color: #666;
+}
+
+.btnSecondaryWhite:hover {
+    border: 1px solid #666;
+}
+
+/*
+@styleguide
+
+## In Page Nav
+
+These set up the style for all on page navigation buttons/anchors
+
+<a href="" class="inPageNav">Sample In-Page</a>
+
+	<a href="" class="inPageNav">Sample In-Page</a>
+
+*/
+
+.inPageNav {
+    border-right: 1px solid #676767;
+
+    /* border: 0px solid #e5e5e5; */
+    background-color: rgb(255, 255, 255);
+}
+
+.inPageNav:hover {
+    color: #666;
+}
+
+.inPageNav:last-child {
+    border-right: 0;
+}
+
+.btn.inPageNav {
+    padding: 2px 8px;
+}
+
+.about-us {
+    font-size: 1.2em;
+    color: #1c7d73;
+}
+
+.btn-link {
+    color: #2a6496;
+}
+
+button a {
+    white-space: normal;
+}

@@ -1,0 +1,22 @@
+{
+    "charts": [
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart1.js",
+            "name": "myChart1",
+            "width": "200",
+            "height": "200"
+        },
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart2.js",
+            "name": "myChart2",
+            "width": "200",
+            "height": "200"
+        },
+        {
+            "path": "assets/js/charts/maps-and-charts2-myChart3.js",
+            "name": "myChart3",
+            "width": "200",
+            "height": "200"
+        }
+    ]
+}

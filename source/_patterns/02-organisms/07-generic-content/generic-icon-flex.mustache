@@ -1,0 +1,17 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+    <!-- flex row -->
+    <div class=" rowFlex ">
+        {{# this.columns }}
+        <div class=" {{#if widthClass}} {{this.widthClass}} {{/if}} ">
+            <div class="columnFlex {{bkgndColor}} ">
+				<div class=" rowFlex noRow ">
+					{{> general-icon-content-flex}}
+				</div>
+            </div>
+        </div>
+        {{/ this.columns }}
+    </div>
+</div>
+
+
+

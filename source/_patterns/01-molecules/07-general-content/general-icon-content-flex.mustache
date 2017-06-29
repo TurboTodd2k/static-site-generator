@@ -1,0 +1,28 @@
+{{! icon column }}
+<div class="columnFlexItem {{this.iconCol.widthClass}} {{this.iconCol.vertAlign}}">
+	{{#if this.iconCol.img}}
+		{{> image this.iconCol.img}}
+	{{/if}}
+</div>
+{{! text column }}
+<div class="columnFlexItem {{this.textCol.widthClass}} {{this.textCol.vertAlign}}">
+	{{#if this.textCol.heading}}
+		<div>
+			{{> heading this.textCol.heading }}
+		</div>
+	{{/if}}
+
+	{{#if this.textCol.rawHTML}}
+		{{{this.textCol.rawHTML}}}
+	{{/if}}
+
+	{{#if this.textCol.button}}
+	    <div class=" rowFlex rowFlexMultiCTA ">
+	        {{# this.textCol.button }}
+	        <div class="columnFlexItem flexMultCTA">
+	            {{> interaction }}
+	        </div>
+	        {{/ this.textCol.button}}
+	    </div>
+	{{/if}}
+</div>

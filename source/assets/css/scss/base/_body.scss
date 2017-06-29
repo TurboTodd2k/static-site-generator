@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * Body base styles
+ */
+
+body {
+    font-family: $font;
+    color: $color-text;
+    -webkit-font-smoothing: auto;
+    font-size: $font-size-med;
+}

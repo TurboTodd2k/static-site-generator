@@ -1,0 +1,207 @@
+/*
+Brand Colors
+========================================================================*/
+.colorBrand {
+    background-color: $color-brand-green;
+}
+
+.colorBrandDark {
+    background-color: $color-brand-green-dark;
+}
+
+/*
+Lightened and Darkened Brand Colors
+========================================================================*/
+
+.colorBrandGreenDarken5 {
+    background-color: $color-brand-green-darken-5;
+}
+
+.colorBrandGreenDarken10 {
+    background-color: $color-brand-green-darken-10;
+}
+
+.colorBrandGreenDarken15 {
+    background-color: $color-brand-green-darken-15;
+}
+
+.colorBrandGreenDarken20 {
+    background-color: $color-brand-green-darken-20;
+}
+
+.colorBrandGreenDarken25 {
+    background-color: $color-brand-green-darken-25;
+}
+
+.colorBrandGreenLighten10 {
+    background-color: $color-brand-green-lighten-10;
+}
+
+.colorBrandGreenLighten20 {
+    background-color: $color-brand-green-lighten-20;
+}
+
+.colorBrandGreenLighten30 {
+    background-color: $color-brand-green-lighten-30;
+}
+
+.colorBrandGreenLighten40 {
+    background-color: $color-brand-green-lighten-40;
+}
+
+.colorBrandGreenLighten50 {
+    background-color: $color-brand-green-lighten-50;
+}
+
+/*
+Neutral Colors
+========================================================================*/
+
+.colorWhite {
+    background-color: $color-white;
+}
+
+.colorGrey02 {
+    background-color: $color-gray-02;
+}
+
+.colorGrey15 {
+    background-color: $color-gray-15;
+}
+
+.colorGrey35 {
+    background-color: $color-gray-35;
+}
+
+.colorGrey50 {
+    background-color: $color-gray-50;
+}
+
+.colorGrey65 {
+    background-color: $color-gray-65;
+}
+
+.colorGrey73 {
+    background-color: $color-gray-73;
+}
+
+.colorGrey87 {
+    background-color: $color-gray-87;
+}
+
+.colorBlack {
+    background-color: $color-black;
+}
+
+.colorDim50 {
+    background-color: $color-dim-50;
+}
+
+.colorDim70 {
+    background-color: $color-dim-70;
+}
+
+/*
+Utility Colors
+========================================================================*/
+
+.colorUtilityPositive {
+    background-color: $color-utility-positive;
+}
+
+.colorUtilityPostitiveSubtle {
+    background-color: $color-utility-postitive-subtle;
+}
+
+.colorUtilityCaution {
+    background-color: $color-utility-caution;
+}
+
+.colorUtilityCautionSubtle {
+    background-color: $color-utility-caution-subtle;
+}
+
+.colorUtilityNegative {
+    background-color: $color-utility-negative;
+}
+
+.colorUtilityNegativeSubtle {
+    background-color: $color-utility-negative-subtle;
+}
+
+.colorUtilityNeutral {
+    background-color: $color-utility-neutral;
+}
+
+.colorUtilityNeutralSubtle {
+    background-color: $color-utility-neutral-subtle;
+}
+
+/*
+Text Colors
+========================================================================*/
+
+.colorText {
+    background-color: $color-text;
+}
+
+.colorTextSubtle {
+    background-color: $color-text-subtle;
+}
+
+/*
+Heading Colors
+========================================================================*/
+
+.colorHeading {
+    background-color: $color-heading;
+}
+
+.colorHeadingAccent {
+    background-color: $color-heading-accent;
+}
+
+/*
+Text Link Colors
+========================================================================*/
+
+a {
+    color: $color-text-link;
+
+    :hover {
+        color: $color-text-link-hover;
+    }
+
+    :visited {
+        color: $color-text-link-visited;
+    }
+
+    :active {
+        color: $color-text-link-active;
+    }
+}
+
+a.light {
+    color: $color-text-link-light;
+
+    :hover {
+        color: $color-text-link-light-hover;
+    }
+
+    :visited {
+        color: $color-text-link-light-visited;
+    }
+}
+
+/*
+Border Colors
+========================================================================*/
+
+.colorBorder {
+    border-color: $color-border;
+}
+
+/*
+Background Colors
+========================================================================*/
+

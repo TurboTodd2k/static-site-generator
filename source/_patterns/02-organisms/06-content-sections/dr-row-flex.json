@@ -1,0 +1,121 @@
+{
+    "drRow": {
+        "nameClass": "",
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "drs": [
+            {
+                "widthClass": "col-md-3-flex",
+                "img": {
+                    "src": "",
+                    "alt": "",
+                    "width": "",
+                    "height": "",
+                    "class": ""
+                },
+                "drName": "Jennifer Phung, M.D.",
+                "drFocus": "Women's Health, Basic Infertility Work-up And Laparoscopic & Robotic Surgery. ",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=25651&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-jennifer-t-phung.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "img": {
+                    "src": "",
+                    "alt": "",
+                    "width": "",
+                    "height": "",
+                    "class": ""
+                },
+                "drName": "Kevin Rine, M.D.",
+                "drFocus": "Women's Health, Birth Control, Child Birth, Infertility, Menopause, Menstrual Pain ",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9289&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-kevin-e-rine9289.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "img": {
+                    "src": "",
+                    "alt": "",
+                    "width": "",
+                    "height": "",
+                    "class": ""
+                },
+                "drName": "Patrick Snyder, M.D.",
+                "drFocus": "Women's Health, Contraception, Hysteroscopy, Pregnancy",
+                "phone-number": {
+                    "phNumMachine": "1-209-948-5940",
+                    "phNumHuman": "(209) 948-5940"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=9315&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-patrick-l-snyder.html"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-3-flex",
+                "img": {
+                    "src": "",
+                    "alt": "",
+                    "width": "",
+                    "height": "",
+                    "class": ""
+                },
+                "drName": "Adam Dodd, M.D.",
+                "drFocus": "Women's Health, Breast Cancer Prevention, Cervical Cancer Prevention, Infertility",
+                "phone-number": {
+                    "phNumMachine": "1-209-944-9799",
+                    "phNumHuman": "(209) 944-9799"
+                },
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnPrimaryOrange",
+                        "cta": "Request an Appointment",
+                        "address": "https://secure.sutterhealth.org/requestappt/?facility=SGMF&DRid=20168&src=web"
+                    },
+                    {
+                        "class": "",
+                        "cta": "View Profile",
+                        "address": "http://www.sutterhealth.org/dr-padam-dodd.html"
+                    }
+                ]
+            }
+        ]
+    }
+}

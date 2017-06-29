@@ -1,0 +1,125 @@
+<h2 class="moduleSeperator">Google Map</h2>
+{{> google-map gmap.obMap}}
+{{> google-map gmap.obMap}}
+
+
+<h2>Charts</h2>
+
+<h2>test</h2>
+<div class="container">
+<div class="row">
+	<div class="col-md-6"><canvas id="chart2" width="600" height="700"></canvas></div>
+	<div class="col-md-6"><canvas id="{{page.charts.chart1.name}}" width="{{page.charts.chart1.width}}" height="{{page.charts.chart1.height}}"></canvas></div>
+</div>
+</div>
+
+
+
+<p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p><p>this</p>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+
+
+{{#each page.charts}}
+	<script>
+	var ctx = document.getElementById("{{name}}");
+	var {{name}} = new Chart(ctx, {
+
+	    type: '{{type}}',
+	    data: {
+	        labels: [
+			{{#forEach this.data.axisLabels}}
+				"{{axisLableName}}"{{#unless isLast}}, {{/unless}}
+			{{/forEach}}
+	        ],
+
+	        datasets: [
+
+
+
+			// bar chart data structure
+			{{#forEach this.data.datasets}}
+		        {
+		            label: '{{datasetLabel}}',
+		            data: [
+						{{#forEach data}}
+							"{{datapoint}}"{{#unless isLast}}, {{/unless}}
+						{{/forEach}}
+		            ],
+		            backgroundColor: [
+		                {{#forEach backgroundColor}}
+			                "{{backgroundColor}}"{{#unless isLast}}, {{/unless}}
+		                {{/forEach}}
+		            ],
+		            borderColor: [
+						{{#forEach borderColor}}
+			                "{{borderColor}}"{{#unless isLast}}, {{/unless}}
+		                {{/forEach}}
+		            ],
+		            borderWidth: {{borderWidth}}
+
+		        } {{#unless isLast}}, {{/unless}}
+			{{/forEach}}
+
+
+
+	        ]
+	    },
+	    options: {
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero: true
+	                }
+	            }]
+	        }
+	    }
+
+	});
+	</script>
+{{/each}}
+
+
+<script>
+var ctx = document.getElementById("chart2");
+var chart2 = new Chart(ctx, {
+
+    type: 'line',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "My First dataset",
+        fillColor: "rgba(220,220,220,0.2)",
+        strokeColor: "rgba(220,220,220,1)",
+        pointColor: "rgba(220,220,220,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(220,220,220,1)",
+        data: [65, 59, 80, 81, 56, 55, 40]
+      },
+      {
+        label: "My Second dataset",
+        fillColor: "rgba(151,187,205,0.2)",
+        strokeColor: "rgba(151,187,205,1)",
+        pointColor: "rgba(151,187,205,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(151,187,205,1)",
+        data: [28, 48, 40, 19, 86, 27, 90]
+      }
+    ]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+
+});
+</script>

@@ -1,0 +1,52 @@
+/*
+Row Spacing
+========================================================================*/
+
+.padFull {
+    padding-top: $pad-double;
+    padding-bottom: $pad-double;
+}
+
+.padThreeQuarters {
+    padding-top: $pad-and-half;
+    padding-bottom: $pad-and-half;
+}
+
+.pad {
+	padding-top: $pad;
+	padding-bottom: $pad;
+}
+
+.padHalf {
+    padding-top: $pad-half;
+    padding-bottom: $pad-half;
+}
+
+.padQuarter {
+    padding-top: $pad-quarter;
+    padding-bottom: $pad-quarter;
+}
+
+footer {
+    padding: 62px 0;
+}
+
+.marginBottomFull {
+    margin-bottom: $space-double !important;
+}
+
+.marginBottomThreeQuarters {
+    margin-bottom: $space-and-half !important;
+}
+
+.marginBottom {
+	margin-bottom: $space !important;
+}
+
+.marginBottomHalf {
+    margin-bottom: $space-half !important;
+}
+
+.marginBottomQuarter {
+    margin-bottom: $space-quarter !important;
+}

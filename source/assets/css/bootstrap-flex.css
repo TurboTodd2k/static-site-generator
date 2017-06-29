@@ -1,0 +1,397 @@
+/*========================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!Exciting New Flexbox Solution-Exciting New Flexbox Solution-Exciting New Flexbox Solution!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================*/
+
+
+/* horizontal flex row */
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    align-items: stretch;
+    /* IE compatibility */
+    min-height: 1px;
+}
+
+
+/* bootstrap padding offset for flex row */
+
+/* .rowFlex {
+    margin-left: -15px;
+    margin-right: -15px;
+} */
+
+.rowFlex.noRow {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* vertical flex column */
+
+.columnFlex {
+    display: flex;
+    flex-direction: row;
+    /*   padding-top: 15px;
+    padding-bottom: 15px; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* IE compatibility */
+    min-height: 1px;
+}
+
+
+/* vertically aligned flex child */
+
+.columnFlexItem {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    align-self: auto;
+    width: 100%;
+}
+
+
+/* psudoBootstrap flex columns - forms the actual horizontal columns */
+
+.col-xs-1-flex,
+.col-sm-1-flex,
+.col-md-1-flex,
+.col-lg-1-flex,
+.col-xs-2-flex,
+.col-sm-2-flex,
+.col-md-2-flex,
+.col-lg-2-flex,
+.col-xs-3-flex,
+.col-sm-3-flex,
+.col-md-3-flex,
+.col-lg-3-flex,
+.col-xs-4-flex,
+.col-sm-4-flex,
+.col-md-4-flex,
+.col-lg-4-flex,
+.col-xs-5-flex,
+.col-sm-5-flex,
+.col-md-5-flex,
+.col-lg-5-flex,
+.col-xs-6-flex,
+.col-sm-6-flex,
+.col-md-6-flex,
+.col-lg-6-flex,
+.col-xs-7-flex,
+.col-sm-7-flex,
+.col-md-7-flex,
+.col-lg-7-flex,
+.col-xs-8-flex,
+.col-sm-8-flex,
+.col-md-8-flex,
+.col-lg-8-flex,
+.col-xs-9-flex,
+.col-sm-9-flex,
+.col-md-9-flex,
+.col-lg-9-flex,
+.col-xs-10-flex,
+.col-sm-10-flex,
+.col-md-10-flex,
+.col-lg-10-flex,
+.col-xs-11-flex,
+.col-sm-11-flex,
+.col-md-11-flex,
+.col-lg-11-flex,
+.col-xs-12-flex,
+.col-sm-12-flex,
+.col-md-12-flex,
+.col-lg-12-flex {
+    flex-grow: 0;
+    flex-shrink: 1;
+    /* transplant from old flex system */
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    align-self: auto;
+    flex-basis: 100%;
+}
+
+/* for auto width flex items */
+.col-auto-flex {
+	width: initial;
+	flex-basis: auto;
+}
+
+/*
+psudoBoostrap width control classes - keep isolated from other rules/breakpoints
+========================================================================*/
+
+.col-xs-12-flex {
+    flex-basis: 100%;
+}
+
+.col-xs-11-flex {
+    flex-basis: 91.66666667%;
+}
+
+.col-xs-10-flex {
+    flex-basis: 83.33333333%;
+}
+
+.col-xs-9-flex {
+    flex-basis: 75%;
+}
+
+.col-xs-8-flex {
+    flex-basis: 66.66666667%;
+}
+
+.col-xs-7-flex {
+    flex-basis: 58.33333333%;
+}
+
+.col-xs-6-flex {
+    flex-basis: 50%;
+}
+
+.col-xs-5-flex {
+    flex-basis: 41.66666667%;
+}
+
+.col-xs-4-flex {
+    flex-basis: 33.33333333%;
+}
+
+.col-xs-3-flex {
+    flex-basis: 25%;
+}
+
+.col-xs-2-flex {
+    flex-basis: 16.66666667%;
+}
+
+.col-xs-1-flex {
+    flex-basis: 8.33333333%;
+}
+
+@media (max-width: 767px) {
+    .col-sm-1-flex,
+    .col-md-1-flex,
+    .col-lg-1-flex,
+    .col-sm-2-flex,
+    .col-md-2-flex,
+    .col-lg-2-flex,
+    .col-sm-3-flex,
+    .col-md-3-flex,
+    .col-lg-3-flex,
+    .col-sm-4-flex,
+    .col-md-4-flex,
+    .col-lg-4-flex,
+    .col-sm-5-flex,
+    .col-md-5-flex,
+    .col-lg-5-flex,
+    .col-sm-6-flex,
+    .col-md-6-flex,
+    .col-lg-6-flex,
+    .col-sm-7-flex,
+    .col-md-7-flex,
+    .col-lg-7-flex,
+    .col-sm-8-flex,
+    .col-md-8-flex,
+    .col-lg-8-flex,
+    .col-sm-9-flex,
+    .col-md-9-flex,
+    .col-lg-9-flex,
+    .col-sm-10-flex,
+    .col-md-10-flex,
+    .col-lg-10-flex,
+    .col-sm-11-flex,
+    .col-md-11-flex,
+    .col-lg-11-flex,
+    .col-sm-12-flex,
+    .col-md-12-flex,
+    .col-lg-12-flex {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .col-sm-12-flex {
+        flex-basis: 100%;
+    }
+    .col-sm-11-flex {
+        flex-basis: 91.66666667%;
+    }
+    .col-sm-10-flex {
+        flex-basis: 83.33333333%;
+    }
+    .col-sm-9-flex {
+        flex-basis: 75%;
+    }
+    .col-sm-8-flex {
+        flex-basis: 66.66666667%;
+    }
+    .col-sm-7-flex {
+        flex-basis: 58.33333333%;
+    }
+    .col-sm-6-flex {
+        flex-basis: 50%;
+    }
+    .col-sm-5-flex {
+        flex-basis: 41.66666667%;
+    }
+    .col-sm-4-flex {
+        flex-basis: 33.33333333%;
+    }
+    .col-sm-3-flex {
+        flex-basis: 25%;
+    }
+    .col-sm-2-flex {
+        flex-basis: 16.66666667%;
+    }
+    .col-sm-1-flex {
+        flex-basis: 8.33333333%;
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-12-flex {
+        flex-basis: 100%;
+    }
+    .col-md-11-flex {
+        flex-basis: 91.66666667%;
+    }
+    .col-md-10-flex {
+        flex-basis: 83.33333333%;
+    }
+    .col-md-9-flex {
+        flex-basis: 75%;
+    }
+    .col-md-8-flex {
+        flex-basis: 66.66666667%;
+    }
+    .col-md-7-flex {
+        flex-basis: 58.33333333%;
+    }
+    .col-md-6-flex {
+        flex-basis: 50%;
+    }
+    .col-md-5-flex {
+        flex-basis: 41.66666667%;
+    }
+    .col-md-4-flex {
+        flex-basis: 33.33333333%;
+    }
+    .col-md-3-flex {
+        flex-basis: 25%;
+    }
+    .col-md-2-flex {
+        flex-basis: 16.66666667%;
+    }
+    .col-md-1-flex {
+        flex-basis: 8.33333333%;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-lg-12-flex {
+        flex-basis: 100%;
+    }
+    .col-lg-11-flex {
+        flex-basis: 91.66666667%;
+    }
+    .col-lg-10-flex {
+        flex-basis: 83.33333333%;
+    }
+    .col-lg-9-flex {
+        flex-basis: 75%;
+    }
+    .col-lg-8-flex {
+        flex-basis: 66.66666667%;
+    }
+    .col-lg-7-flex {
+        flex-basis: 58.33333333%;
+    }
+    .col-lg-6-flex {
+        flex-basis: 50%;
+    }
+    .col-lg-5-flex {
+        flex-basis: 41.66666667%;
+    }
+    .col-lg-4-flex {
+        flex-basis: 33.33333333%;
+    }
+    .col-lg-3-flex {
+        flex-basis: 25%;
+    }
+    .col-lg-2-flex {
+        flex-basis: 16.66666667%;
+    }
+    .col-lg-1-flex {
+        flex-basis: 8.33333333%;
+    }
+}
+
+
+/*
+all other supporting rules
+========================================================================*/
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width: 767px) {}
+
+
+/*
+Exceptions
+========================================================================*/
+
+/* special cases for buttons */
+
+.rowFlex.rowFlexMultiCTA {
+    justify-content: center;
+    margin-top: .55em;
+}
+
+
+.columnFlexItem.flexMultCTA {
+    width: initial;
+}
+
+
+/* special case for noPad on parent */
+.noPad .columnFlex {
+	padding: 0;
+}
+
+
+
+/*
+Vertical Alignment
+========================================================================*/
+
+.columnFlexItemVCenter {
+    align-self: center !important;
+}
+
+.columnFlexItemVTop {
+    align-self: flex-start !important;
+}
+
+.columnFlexItemVBottom {
+    align-self: flex-end !important;
+}

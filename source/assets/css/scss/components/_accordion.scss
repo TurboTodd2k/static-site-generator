@@ -1,0 +1,56 @@
+/*
+Full Width Expansion
+========================================================================*/
+
+.panel-title {
+    font-weight: initial;
+}
+
+.panel-title a {
+    text-decoration: none;
+    position: static;
+    padding-left: 0;
+}
+
+.panel-title a + p {
+    margin-left: 22px;
+}
+
+.panel-title a.expansionWithIcon + p {
+    margin-top: -12px;
+    margin-left: 89px;
+}
+
+.expansionSeperator {
+    /*margin-top: 25px;*/
+    padding: 15px;
+}
+
+.accordion .panel-heading .columnFlexItem {
+    padding-right: 10px;
+}
+
+.accordion .panel-heading .columnFlexItem:last-child {
+    padding-right: 0;
+}
+
+.accordion .rowFlex {
+    flex-wrap: nowrap;
+}
+
+.accordion .col-auto-flex {
+    flex-shrink: 3;
+}
+
+.accordionState {
+    font-family: FontAwesome;
+    font-size: 23px;
+}
+
+.panel-title a:not(.collapsed) .accordionState:before {
+    content: '\f0d7';
+}
+
+.panel-title a.collapsed .accordionState:before {
+    content: '\f0da';
+}

@@ -1,0 +1,1662 @@
+/*------------------------------------*    $TABLE OF CONTENTS
+    based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
+\*------------------------------------*/
+/**
+ * ABSTRACTS..............Declarations of Sass variables and mixins
+ * Mixins.................Mixin styles that are included in the site
+ * Variables..............Variables for styles that are used in the site
+ *
+ * BASE...................Base/reset styles for certain elements
+ * Animation..............Animation base styles
+ * Forms..................Form field base styles
+ * Global Classes.........Base styles used across the entirety of the site
+ * Headings...............Base styles for headings (h1, h2, etc.)
+ * Links..................Base styles for links
+ * Lists..................Base styles lists
+ * Main...................Base styles for main section
+ * Media..................Base styles for various media (videos, iframes, etc.)
+ * Reset..................Reset base styles (i.e. Display block on certain elements)
+ * Tables.................Base styles for tables
+ * Text...................Base styles for text elements
+ *
+ * COMPONENTS.............Styles for certain components
+ * Accordion..............Styles for accordion components
+ * Article................Styles for article components
+ * Blocks.................Styles for block components
+ * Buttons................Styles for button components
+ * Carousels..............Styles for carousels
+ * Comments...............Styles for comments component
+ * Footer.................Styles for the footer component
+ * Forms..................Styles for form components
+ * Header.................Styles for header component
+ * Icons..................Styles for icons
+ * Lists..................Styles for types of lists
+ * Main...................Styles for main section
+ * Messaging..............Styles for alerts/messaging components
+ * Nav....................Styles for navigation components
+ * Sections...............Styles for section components
+ * Tabs...................Styles for tabs
+ * Text...................Styles for text components
+ * Tooltip................Styles for tooltips
+
+ *
+ * LAYOUT.................Styles that affect the site's general layout
+ * Layout.................Layout styles
+ *
+ * UTILITIES..............Styles that require a utility class
+ *
+ */
+/*------------------------------------*    $BOOTSTRAP
+\*------------------------------------*/
+/* base bootstrap*/
+/*bootstrap flex addition*/
+/*font-awesome*/
+/*------------------------------------*    $ABSTRACTS
+\*------------------------------------*/
+/*------------------------------------*    #MIXINS
+\*------------------------------------*/
+/** CSS Transition
+ *	Usage: @include transition(width,0.3s,ease-out);
+ */
+/** Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
+ *	Usage: @include font-size(1, large);
+ */
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
+/*------------------------------------*    #COLORS
+\*------------------------------------*/
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+/*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
+/*
+  * Text Colors
+  * 1) These are non-linked text colors, such as body copy.
+  */
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+/*
+ * Lightened Brand Color
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+/*------------------------------------*    #TYPOGRAPHY
+\*------------------------------------*/
+/*------------------------------------*    #LAYOUT
+\*------------------------------------*/
+/**
+ * Spacing Defaults
+ */
+/*------------------------------------*    #BORDERS
+\*------------------------------------*/
+/**
+ * Border Width
+ */
+/**
+ * Border Radius
+ */
+/*------------------------------------*    #ANIMATION
+\*------------------------------------*/
+/**
+ * Animation Duration
+ */
+/**
+ * Animation Easing
+ */
+/*------------------------------------*    $BASE
+\*------------------------------------*/
+/*------------------------------------*    #BODY
+\*------------------------------------*/
+/**
+ * Body base styles
+ */
+body {
+  font-family: "Neue Helvetica W02", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #000;
+  -webkit-font-smoothing: auto;
+  font-size: 1rem; }
+
+/*
+Brand Colors
+========================================================================*/
+.colorBrand {
+  background-color: #5C832F; }
+
+.colorBrandDark {
+  background-color: #3b4a20; }
+
+/*
+Lightened and Darkened Brand Colors
+========================================================================*/
+.colorBrandGreenDarken5 {
+  background-color: #4f7028; }
+
+.colorBrandGreenDarken10 {
+  background-color: #425d22; }
+
+.colorBrandGreenDarken15 {
+  background-color: #344b1b; }
+
+.colorBrandGreenDarken20 {
+  background-color: #273814; }
+
+.colorBrandGreenDarken25 {
+  background-color: #1a250d; }
+
+.colorBrandGreenLighten10 {
+  background-color: #76a93c; }
+
+.colorBrandGreenLighten20 {
+  background-color: #90c256; }
+
+.colorBrandGreenLighten30 {
+  background-color: #a9d07b; }
+
+.colorBrandGreenLighten40 {
+  background-color: #c1dda1; }
+
+.colorBrandGreenLighten50 {
+  background-color: #daebc6; }
+
+/*
+Neutral Colors
+========================================================================*/
+.colorWhite {
+  background-color: #fff; }
+
+.colorGrey02 {
+  background-color: #f7f9f9; }
+
+.colorGrey15 {
+  background-color: #d9d9d9; }
+
+.colorGrey35 {
+  background-color: #a5a5a5; }
+
+.colorGrey50 {
+  background-color: #808080; }
+
+.colorGrey65 {
+  background-color: #595959; }
+
+.colorGrey73 {
+  background-color: #444444; }
+
+.colorGrey87 {
+  background-color: #222222; }
+
+.colorBlack {
+  background-color: #000; }
+
+.colorDim50 {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.colorDim70 {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+/*
+Utility Colors
+========================================================================*/
+.colorUtilityPositive {
+  background-color: #03804d; }
+
+.colorUtilityPostitiveSubtle {
+  background-color: #d4f3e6; }
+
+.colorUtilityCaution {
+  background-color: #a59b15; }
+
+.colorUtilityCautionSubtle {
+  background-color: #fffecf; }
+
+.colorUtilityNegative {
+  background-color: #b12a0b; }
+
+.colorUtilityNegativeSubtle {
+  background-color: #fdded8; }
+
+.colorUtilityNeutral {
+  background-color: #0192d0; }
+
+.colorUtilityNeutralSubtle {
+  background-color: #d3f2ff; }
+
+/*
+Text Colors
+========================================================================*/
+.colorText {
+  background-color: #000; }
+
+.colorTextSubtle {
+  background-color: #808080; }
+
+/*
+Heading Colors
+========================================================================*/
+.colorHeading {
+  background-color: #000; }
+
+.colorHeadingAccent {
+  background-color: #222222; }
+
+/*
+Text Link Colors
+========================================================================*/
+a {
+  color: #222222; }
+  a :hover {
+    color: #444444; }
+  a :visited {
+    color: #000; }
+  a :active {
+    color: #222222; }
+
+a.light {
+  color: #fff; }
+  a.light :hover {
+    color: #fff; }
+  a.light :visited {
+    color: #fff; }
+
+/*
+Border Colors
+========================================================================*/
+.colorBorder {
+  border-color: #808080; }
+
+/*
+Background Colors
+========================================================================*/
+/*------------------------------------*    #GLOBAL CLASSES
+\*------------------------------------*/
+/*
+@styleguide
+# Global Classes
+
+## Visibility
+
+Classes for setting visibility
+
+.is-hidden -Remove from the flow and screen readers.
+.is-vishidden -Completely remove from the flow but leave available to screen readers.
+*/
+.is-hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+.is-vishidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/*
+@styleguide
+
+## Text Alignment
+
+Classes for setting text alignment
+
+<p class="textRight">.textRight -Set text alignment right</p>
+<p class="textCenter">.textCenter -Set text alignment center</p>
+<p class="textLeft">.textLeft -Set text alignment left</p>
+
+	<p class="textRight">.textRight -Set text alignment right</p>
+	<p class="textCenter">.textCenter -Set text alignment center</p>
+	<p class="textLeft">.textLeft -Set text alignment left</p>
+*/
+.textRight {
+  text-align: right; }
+
+.textCenter {
+  text-align: center; }
+
+.textLeft {
+  text-align: left; }
+
+/*
+@styleguide
+
+## Text Size Adjustment
+
+Classes for setting local text-size adjustments
+
+<p class="textSmall">This is small</p>
+<p class="textSmaller">This is smaller</p>
+<p class="textSmallest">This is smallest</p>
+
+	<p class="textSmall">This is small</p>
+	<p class="textSmaller">This is smaller</p>
+	<p class="textSmallest">This is smallest</p>
+
+*/
+.textSmall {
+  font-size: .85rem; }
+
+.textSmaller {
+  font-size: .75rem; }
+
+.textSmallest {
+  font-size: .65rem; }
+
+/*
+@styleguide
+
+## Padding control
+
+ Classes for setting padding
+
+	<p class="textRight">.noPad -remove all padding</p>
+	<p class="textCenter">.fatPad -extra padding for flex items</p>
+*/
+.noPad {
+  padding: 0 !important; }
+
+.fatPad .columnFlex {
+  padding: 35px; }
+
+/*
+@styleguide
+
+## Borders
+
+ Classes for setting borders on elements
+
+	<p class="borderDkGreen">sets a 5px dark green border</p>
+
+*/
+.borderDkGreen {
+  /* padding: 0 15px !important; */
+  border: 5px solid #25787e; }
+
+/*
+@styleguide
+
+## Corner Rounding
+
+ Classes for rounding corners of elements
+
+	<p class="cornerRound">and now you have a 5px radius rounded corner</p>
+
+*/
+.cornerRound {
+  border-radius: 5px; }
+
+/*
+Headings
+========================================================================*/
+h1,
+h2,
+.fauxH2,
+h3,
+.fauxH3,
+h4,
+.psudoH4,
+.fauxH4,
+h5,
+.psudoH5,
+.fauxH5,
+h6 {
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: .25em;
+  text-decoration: none;
+  color: #000; }
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: .10em;
+  letter-spacing: .025em;
+  word-spacing: .015em;
+  -webkit-text-stroke: .2px; }
+
+h2,
+.fauxH2 {
+  font-size: 28px;
+  color: #353535;
+  letter-spacing: .035em;
+  -webkit-text-stroke: .3px; }
+
+.imgHeroHeadlineLeft h2 {
+  margin-bottom: .75em; }
+
+.imgHeroHeadlineLeft .fauxH2 {
+  margin-bottom: .75em; }
+
+h3,
+.fauxH3 {
+  font-size: 1.6em;
+  letter-spacing: .025em;
+  color: #222222; }
+
+img + .fauxH3,
+img + h3 {
+  margin-top: .55em; }
+
+h4,
+.psudoH4,
+.fauxH4 {
+  font-size: 1.4em; }
+
+h5,
+.psudoH5,
+.fauxH5 {
+  font-size: 1.2em; }
+
+h6, .psudoH6 {
+  font-size: 1em; }
+
+.psudoH4 img {
+  display: inline-block;
+  margin-right: 10px; }
+
+.expansionH4 {
+  font-weight: normal;
+  text-decoration: none; }
+
+h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, fauxh2:last-child,
+fauxh3:last-child,
+fauxh4:last-child {
+  margin-bottom: 0; }
+
+/*heading rule classes*/
+.ruleCenter,
+.ruleFlush {
+  /* line-height: 30px; */
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2em; }
+
+.ruleCenterParent {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 0; }
+
+.ruleCenter:before,
+.ruleFlush:before {
+  position: absolute;
+  top: calc(100% + 1em);
+  content: '';
+  border-top: 1px solid; }
+
+.ruleCenter:before {
+  left: 50%;
+  width: 150%;
+  /* max-width: calc(100vw - 30px); */
+  transform: translatex(-50%); }
+
+.ruleFlush:before {
+  width: 100%; }
+
+/*
+anchors
+========================================================================*/
+a {
+  text-decoration: underline;
+  color: #006699;
+  /* IE compatibility */
+  min-height: 1px; }
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: inherit; }
+
+/*------------------------------------*    #LINKS
+\*------------------------------------*/
+/**
+ * Ordered/Unordered list base styles
+ */
+ol, ul {
+  margin-bottom: .75em; }
+
+/**
+ * Definition list base styles
+ */
+dl {
+  overflow: hidden;
+  margin: 0 0 1em; }
+
+/**
+ * Terms/Names base styles
+ */
+dt {
+  font-weight: bold; }
+
+/**
+ * Definition list description base styles
+ */
+dd {
+  margin-left: 0; }
+
+li {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: .015em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: .2px;
+  margin-bottom: .25em;
+  margin-left: 1.55em;
+  list-style: initial; }
+
+/*------------------------------------*    #TEXT
+\*------------------------------------*/
+/**
+ * Paragraph base styles
+ */
+p {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: .015em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: .2px; }
+
+p {
+  margin-bottom: 1em; }
+
+p.small {
+  font-size: .8em; }
+
+p:last-child {
+  margin-bottom: 0; }
+
+.imgHeroHeadlineLeft p,
+.imgHeroHeadlineCenter p {
+  font-size: 1.2em;
+  line-height: 1.355em; }
+
+p.smallIntro {
+  font-size: 1.2em; }
+
+/**
+ * Blockquote base styles
+ */
+blockquote {
+  font-style: italic;
+  border-left: 1px solid #808080;
+  color: #808080;
+  padding-left: 1em;
+  margin-bottom: 1em; }
+
+/**
+ * Horizontal rule base styles
+ */
+hr {
+  border: 0;
+  height: 2px;
+  background: #d9d9d9;
+  margin: 2em 0; }
+
+/**
+ * Abbreviation base styles
+ */
+abbr {
+  border-bottom: 1px dotted #808080;
+  cursor: help; }
+
+/*
+Row Spacing
+========================================================================*/
+.padFull {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.padThreeQuarters {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; }
+
+.pad {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.padHalf {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+
+.padQuarter {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em; }
+
+footer {
+  padding: 62px 0; }
+
+.marginBottomFull {
+  margin-bottom: 2em !important; }
+
+.marginBottomThreeQuarters {
+  margin-bottom: 1.5em !important; }
+
+.marginBottom {
+  margin-bottom: 1em !important; }
+
+.marginBottomHalf {
+  margin-bottom: 0.5em !important; }
+
+.marginBottomQuarter {
+  margin-bottom: 0.25em !important; }
+
+img {
+  margin-bottom: 10px;
+  /* IE compatability */
+  -ms-interpolation-mode: bicubic;
+  min-height: 1px; }
+
+img:last-child {
+  margin-bottom: 0; }
+
+.panel-group:last-child {
+  margin-bottom: 0; }
+
+.panel-title {
+  font-size: 1em; }
+
+html {
+  font-size: 16px; }
+
+/*------------------------------------*    $COMPONENTS
+\*------------------------------------*/
+/*
+Buttons
+========================================================================*/
+/*
+@styleguide
+
+# Buttons
+
+## Base Style
+
+These set up the common attributes for all buttons/anchors
+
+<a href="" class="btn custom-btn">Sample Button</a>
+
+	<a href="" class="btn custom-btn">Sample Button</a>
+
+*/
+.btn {
+  white-space: normal; }
+
+.custom-btn {
+  font-weight: 500;
+  line-height: 1.25em;
+  min-width: 100px;
+  /* height: 2.9em; */
+  padding: .65em 1.05em;
+  /* white-space: initial; */
+  letter-spacing: 1px;
+  border-radius: 10px;
+  /* padding-bottom: .7em; */
+  text-decoration: none; }
+
+.rowFlex.rowFlexMultiCTA .columnFlexItem {
+  margin-right: 10px; }
+
+.rowFlex.rowFlexMultiCTA .columnFlexItem:last-child {
+  margin-right: 0; }
+
+/*
+@styleguide
+
+## Colors
+
+These set up the colors for all buttons/anchors
+
+<a href="" class="btn custom-btn btnPrimaryOrange">Sample Button</a>
+<a href="" class="btn custom-btn btnPrimaryWhite">Sample Button</a>
+<a href="" class="btn custom-btn btnSecondaryWhite">Sample Button</a>
+
+	<a href="" class="btn custom-btn btnPrimaryOrange">Sample Button</a>
+	<a href="" class="btn custom-btn btnPrimaryWhite">Sample Button</a>
+	<a href="" class="btn custom-btn btnSecondaryWhite">Sample Button</a>
+
+*/
+.btnPrimaryOrange {
+  color: white;
+  border: 0;
+  background-color: #f68026; }
+
+.btnPrimaryOrange a {
+  color: #fff; }
+
+.btnPrimaryWhite {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.btnPrimaryWhite a {
+  color: #444; }
+
+.btnSecondaryWhite {
+  /* color: #666; */
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background-color: white; }
+
+.btnPrimaryOrange a,
+.btnPrimaryWhite a,
+.btnSecondaryWhite a {
+  text-decoration: none;
+  /* color: inherit; */ }
+
+.btnPrimaryOrange:hover,
+.btnPrimaryWhite:hover {
+  /* border: 1px solid #e5e5e5; */
+  background-color: white; }
+
+.btnPrimaryOrange:hover a,
+.btnPrimaryWhite:hover a {
+  color: #666; }
+
+.btnSecondaryWhite:hover {
+  border: 1px solid #666; }
+
+/*
+@styleguide
+
+## In Page Nav
+
+These set up the style for all on page navigation buttons/anchors
+
+<a href="" class="inPageNav">Sample In-Page</a>
+
+	<a href="" class="inPageNav">Sample In-Page</a>
+
+*/
+.inPageNav {
+  border-right: 1px solid #676767;
+  /* border: 0px solid #e5e5e5; */
+  background-color: white; }
+
+.inPageNav:hover {
+  color: #666; }
+
+.inPageNav:last-child {
+  border-right: 0; }
+
+.btn.inPageNav {
+  padding: 2px 8px; }
+
+.about-us {
+  font-size: 1.2em;
+  color: #1c7d73; }
+
+.btn-link {
+  color: #2a6496; }
+
+button a {
+  white-space: normal; }
+
+/*------------------------------------*    #CAROUSEL
+\*------------------------------------*/
+/**
+ * Horizontal carousel
+ */
+/**
+ * Carousel island container
+ */
+/**
+ * Carousel container
+ */
+/**
+ * Carousel list
+ */
+/**
+ * Carousel controls
+ */
+/**
+	 * Carousel pagination
+	 */
+/**
+	 * Carousel next button
+	 */
+.slick-prev:before, .slick-next:before {
+  font-size: 25px;
+  color: black; }
+
+.slick-dotted.slick-slider {
+  margin-bottom: initial; }
+
+/*
+Footer
+========================================================================*/
+footer {
+  padding: 3em 0;
+  /* text-align: center; */
+  color: #fff;
+  border-top: 9px solid #00aaa6;
+  background: #3d3d3d; }
+
+footer a {
+  font-weight: 600;
+  color: white; }
+
+.footer-row {
+  margin-bottom: 15px; }
+
+footer .copyrights {
+  color: #fff; }
+
+.footer-logo {
+  float: left; }
+
+footer ul {
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none; }
+
+footer .footer-nav li {
+  line-height: 1;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-right: 10px;
+  list-style: none;
+  border-right: 1px solid #fff; }
+
+footer .footer-nav li:last-child {
+  border: 0; }
+
+footer ul li a {
+  font-size: 13px; }
+
+/* footer a:hover, footer a {
+	color: #fff;
+} */
+footer a:hover {
+  text-decoration: underline; }
+
+footer .legal {
+  color: #bbb; }
+
+footer .legal {
+  text-align: right; }
+
+.Small,
+.small {
+  font-size: .8em; }
+
+/*
+Responsive
+========================================================================*/
+@media (max-width: 1201px) {
+  footer .row {
+    padding-right: 15px !important;
+    padding-left: 15px !important; } }
+
+@media (max-width: 791px) {
+  .footer-logo {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 0;
+    text-align: center; }
+  footer .flexRow {
+    display: block; } }
+
+/*------------------------------------*    #HEADER
+\*------------------------------------*/
+/**
+ * Header
+ */
+.c-header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
+  padding: 0.5em 0; }
+  @media all and (min-height: 100px) {
+    .c-header {
+      padding: 1em 0; } }
+
+/**
+ * Header Controls
+ * 1) This container holds the primary nav and search menu
+ */
+.c-header__controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem; }
+
+/**
+ * Nav toggle button
+ * 1) Styles for the general nav toggle button
+ */
+.nav-toggle {
+  display: block;
+  padding: 0.9rem 1rem 0.7rem;
+  font-size: 1.3rem;
+  line-height: 1; }
+  @media all and (min-width: 100px) {
+    .nav-toggle {
+      display: none; } }
+  @media all and (max-width: 17em) {
+    .nav-toggle {
+      padding-left: 0.2rem;
+      padding-right: 0.2rem; } }
+
+/**
+ * Search nav toggle button
+ * 1) Specific nav toggle button for the search form
+ */
+.nav-toggle-search {
+  display: block; }
+  @media all and (min-width: 100px) {
+    .nav-toggle-search {
+      display: none; } }
+
+/*------------------------------------*    #LISTS
+\*------------------------------------*/
+/**
+ * Inline list
+ */
+.inline-list li {
+  display: inline-block; }
+
+/**
+ * Social list
+ */
+.social-list li {
+  margin: 0 0.4rem 1em 0; }
+
+.social-list a {
+  font-size: 1.6em; }
+
+/**
+ * Headline list
+ */
+.headline-list {
+  margin-bottom: 1em; }
+  .headline-list.flush {
+    margin: 0; }
+  .headline-list h4 {
+    font-weight: normal; }
+  .headline-list li {
+    padding: 0.25em 0;
+    border-top: 1px solid #a5a5a5; }
+
+/**
+ * Post list
+ */
+.post-list li {
+  margin-bottom: 1em; }
+
+/**
+ * Bullet list
+ */
+.bullet-list {
+  list-style: square;
+  margin: 0 0 1em 1.2em;
+  line-height: 1.3; }
+  .bullet-list li {
+    margin-bottom: 1em; }
+
+/**
+ * Text list
+ */
+.text-list {
+  margin: 0 0 1em;
+  line-height: 1.3; }
+  .text-list li {
+    margin-bottom: 1em; }
+
+/**
+ * Media List
+ */
+.c-media-list__item {
+  margin-bottom: 1.5em; }
+
+/**
+ * Tile list
+ */
+.c-tile-list {
+  display: flex;
+  flex-direction: column; }
+  @media all and (min-width: 55rem) {
+    .c-tile-list {
+      flex-direction: row;
+      flex-wrap: wrap; } }
+
+/**
+ * Tile list item
+ */
+.c-tile-list__item {
+  width: 100%;
+  margin-bottom: 1em;
+  position: relative; }
+  .c-tile-list__item:nth-child(2n) {
+    padding-right: 0; }
+  @media all and (min-width: 55rem) {
+    .c-tile-list__item {
+      width: 50%;
+      margin: 0;
+      padding: 0 1em 1em 0; } }
+
+/*------------------------------------*    #PRIMARY NAVIGATION
+\*------------------------------------*/
+/**
+ * Navigation tag
+ */
+.c-primary-nav {
+  display: none; }
+  .c-primary-nav--is-active {
+    display: block;
+    position: absolute;
+    padding: 1em 2em;
+    top: 67px;
+    right: 0;
+    box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    background: #fff; }
+  @media all and (min-width: 100px) {
+    .c-primary-nav {
+      display: block;
+      margin-right: 1rem; } }
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+  display: none; }
+  @media all and (min-width: 100px) {
+    .c-primary-nav__list {
+      display: flex; } }
+  .c-primary-nav--is-active .c-primary-nav__list {
+    display: block; }
+
+/**
+ * Nav Links
+ */
+.c-primary-nav__link {
+  font-weight: bold;
+  display: block;
+  padding: 1rem; }
+
+/**
+ * Pagination
+ */
+.pagination {
+  overflow: hidden; }
+  .pagination li {
+    float: left;
+    border-right: 1px solid #d9d9d9; }
+    .pagination li:last-child {
+      border: 0; }
+  .pagination a {
+    padding: 1em; }
+
+/* 4 - Main Menu
+---------------------------------------------------------------------- */
+.navbar-brand {
+  padding: 0; }
+
+.navbar-default {
+  border-color: transparent; }
+
+.navbar {
+  margin-bottom: 0; }
+
+#main-menu {
+  border-bottom: 1px solid #f0f1f2;
+  background-color: #fff;
+  min-height: 101px; }
+
+#main-menu .container {
+  margin-top: 25px; }
+
+.navbar-fixed-top,
+.navbar-default.navbar-fixed-top .navbar-brand,
+.navbar-default.navbar-fixed-top .navbar-brand img {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+/*------------------------------------*    #TEXT
+\*------------------------------------*/
+/**
+ * Passages of text
+ */
+.text a {
+  text-decoration: underline; }
+
+.text ul {
+  list-style: disc;
+  margin: 0 0 1em 1.2em; }
+  .text ul ul {
+    margin-bottom: 0; }
+
+.text ol {
+  list-style: decimal;
+  margin: 0 0 1em 1.5em; }
+  .text ol ol {
+    margin-bottom: 0; }
+
+/**
+ * Text passage
+ */
+.s-text-passage {
+  margin-bottom: 1rem; }
+
+/**
+ * Image within text passage
+ */
+.c-text-passage__img {
+  border-radius: 6px;
+  margin-bottom: 1rem; }
+
+/*========================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!STYLE GUIDE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================*/
+.colorSwatches {
+  padding-left: 0; }
+
+.colorSwatches li:first-of-type {
+  margin-left: 0; }
+
+.colorSwatches li {
+  display: inline-block; }
+
+.colorSwatches div {
+  width: 100%;
+  min-width: 80px;
+  height: 80px; }
+
+.stickyNav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 500; }
+
+/*
+seperators for style guide content
+==========================================*/
+.moduleSeperator {
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ccc; }
+
+.moduleSeperator p {
+  font-size: 1em;
+  margin: 0;
+  color: #000; }
+
+/*
+Hero
+========================================================================*/
+.imgHeroRow,
+.imgCenterRow {
+  position: relative; }
+
+.imgHero {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.vidHero {
+  width: 100%; }
+
+/* set depth of hero image */
+.imgHero.tall {
+  padding-top: 48.8%; }
+
+.imgHero.medium {
+  padding-top: 48.8%; }
+
+.imgHero.small {
+  padding-top: 31.75%; }
+
+/*positioning of copy*/
+.imgHeroHeadlineLeft {
+  position: absolute;
+  left: 4%; }
+
+.imgHeroHeadlineCenter,
+.imgCopyCenter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 0 20px 10px 20px; }
+
+.imgHeroHeadlineCenterFull {
+  position: absolute; }
+
+/*font styles*/
+.imgHeroHeadlineLeft p:last-child,
+.imgHeroHeadlineCenter p:last-child {
+  margin-bottom: 0; }
+
+.imgHeroHeadlineCenter,
+.imgCopyCenter {
+  text-align: center; }
+
+@media (max-width: 991px) {
+  .imgHeroHeadlineLeft,
+  .imgHeroHeadlineCenter {
+    font-size: 13px; } }
+
+@media (min-width: 874px) {
+  .imgHeroHeadlineLeft {
+    width: 45%; }
+  /*positioning of copy*/
+  .imgHeroHeadlineLeft {
+    top: 50%;
+    transform: translateY(-50%); }
+  .marginBottomHero {
+    margin-bottom: 26px; } }
+
+@media (max-width: 873px) {
+  .imgHeroHeadlineLeft,
+  .imgHeroHeadlineCenter {
+    position: static;
+    width: calc(100% - 30px);
+    margin: auto;
+    transform: none;
+    text-align: center; }
+  .marginBottomHero {
+    margin-bottom: 53px; }
+  .imgHero {
+    margin-bottom: 26px; }
+  /*color for type*/
+  .imgHeroHeadlineLeft h1,
+  .imgHeroHeadlineLeft h2,
+  .imgHeroHeadlineLeft p,
+  .imgHeroHeadlineCenter h1,
+  .imgHeroHeadlineCenter p {
+    color: white; } }
+
+@media (max-width: 865px) {
+  .imgHero.tall, .imgHero.medium, .imgHero.small {
+    padding-top: 60.75%; } }
+
+/*
+Gallery Row
+========================================================================*/
+.rowFlex.gallery {
+  margin-right: -5px;
+  margin-left: -5px; }
+
+.galleryItemParent {
+  font-size: .75rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px !important;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.galleryItem {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 0; }
+
+.galleryItem:last-child {
+  opacity: 1; }
+
+.galleryCopyPrimary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*  min-width: 85%;
+    max-width: calc(100% - 30px); */
+  transform: translate(-50%, -50%); }
+
+.galleryOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 85%;
+  max-width: calc(100% - 30px);
+  transform: translate(-50%, -50%);
+  opacity: 1; }
+
+.galleryItemParent h4 {
+  margin-top: 0; }
+
+.galleryItemParent h5 {
+  margin-top: 0; }
+
+.galleryItemParent p:last-child {
+  margin-bottom: 0; }
+
+.galleryItemParent.galleryItemRollover:hover .galleryCopyPrimary,
+.galleryItemParent.galleryItemRollover:hover .galleryOverlay {
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease; }
+
+.gallery .columnFlexItem.flexMultCTA {
+  padding: 0; }
+
+/* .gallery .columnFlexItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+} */
+/*
+Responsive
+========================================================================*/
+@media (min-width: 768px) {
+  .galleryItemParent.galleryItemRollover:hover .galleryItem {
+    opacity: 1; }
+  .galleryItemParent.galleryItemRollover:hover .galleryOverlay {
+    opacity: 0; } }
+
+@media (max-width: 767px) {
+  /*
+	Gallery
+	========================================================================*/
+  .galleryOverlay {
+    display: none; }
+  .galleryItem {
+    opacity: 1; } }
+
+/*
+Google Map and Legend
+========================================================================*/
+#map-section {
+  min-height: 300px;
+  background-color: #474747; }
+
+#map-section .mapDisplay {
+  width: 100%;
+  height: 400px; }
+
+.mapLegend {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 2px solid #fff;
+  background-color: #e4e8ef; }
+
+.rowFlex.mapLegend {
+  justify-content: center; }
+
+.mapIcon,
+.facilityAddress {
+  display: inline-block; }
+
+.mapLegend .col-centered {
+  margin-bottom: 10px;
+  vertical-align: top; }
+
+.mapIcon {
+  line-height: 1;
+  padding-right: 5px;
+  vertical-align: top; }
+
+.mapLegend h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #00a4a2; }
+
+.mapLegend .btn-link {
+  color: #007a78; }
+
+/*
+Full Width Expansion
+========================================================================*/
+.panel-title {
+  font-weight: initial; }
+
+.panel-title a {
+  text-decoration: none;
+  position: static;
+  padding-left: 0; }
+
+.panel-title a + p {
+  margin-left: 22px; }
+
+.panel-title a.expansionWithIcon + p {
+  margin-top: -12px;
+  margin-left: 89px; }
+
+.expansionSeperator {
+  /*margin-top: 25px;*/
+  padding: 15px; }
+
+.accordion .panel-heading .columnFlexItem {
+  padding-right: 10px; }
+
+.accordion .panel-heading .columnFlexItem:last-child {
+  padding-right: 0; }
+
+.accordion .rowFlex {
+  flex-wrap: nowrap; }
+
+.accordion .col-auto-flex {
+  flex-shrink: 3; }
+
+.accordionState {
+  font-family: FontAwesome;
+  font-size: 23px; }
+
+.panel-title a:not(.collapsed) .accordionState:before {
+  content: '\f0d7'; }
+
+.panel-title a.collapsed .accordionState:before {
+  content: '\f0da'; }
+
+/*
+Dr Row
+=========================================================================*/
+.drRow img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px; }
+
+.drRow .columnFlex {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 0; }
+
+.doctorinfo {
+  font-size: 1em;
+  /* font-weight: 100; */
+  line-height: 1.5em;
+  /* letter-spacing: .015em; */
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: .2px; }
+
+.doctorinfoHighlite {
+  font-weight: 400;
+  line-height: 3em; }
+
+.specialinfoHighlite {
+  font-weight: 400; }
+
+.doctorname {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-bottom: .20em;
+  letter-spacing: .025em; }
+
+.doctorSeperator {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.doctorSeperator.drRuleOdd, .doctorSeperator.drRuleEven {
+  border-right: 1px solid #e5e5e5; }
+
+.drRow a {
+  margin-top: 15px;
+  display: inline-block; }
+
+.customDoctor-btn {
+  /* font-weight: 500; */
+  line-height: 1em;
+  min-width: 100px;
+  /* height: 2.9em; */
+  padding: .65em 1.05em;
+  /* white-space: initial; */
+  /* letter-spacing: 1px; */
+  border-radius: 8px;
+  /* padding-bottom: .7em; */
+  font-size: 15px; }
+
+.rowFlex.drRow {
+  justify-content: center;
+  font-size: .65rem; }
+
+.rowFlex.drRow .columnFlexItem {
+  width: 100%; }
+
+/* for table varient */
+.drTable {
+  font-size: .65rem; }
+
+/*
+Video Row
+========================================================================*/
+.vidFloat {
+  display: block;
+  max-width: 498px;
+  margin: auto; }
+
+/*
+Video Embed
+========================================================================*/
+.videoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%; }
+
+.fluid-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+/*
+Video Play Button Overlay
+========================================================================*/
+.videoPlayButton {
+  font-size: 22px;
+  position: relative; }
+
+.videoPlayButtonOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: .5em .75em;
+  transform: translate(-50%, -50%);
+  color: #257873;
+  border: 3px solid;
+  border-radius: 53px;
+  /*  box-shadow: 2px 2px 0 #fff;*/
+  /* font-size: 30px; */
+  background-color: rgba(255, 255, 255, 0.25); }
+
+.videoPlayButtonOverlay span {
+  font-family: FontAwesome;
+  /* font-size: 30px; */
+  line-height: 1em; }
+
+.videoPlayButton:hover .videoPlayButtonOverlay {
+  color: #25787e;
+  background-color: rgba(255, 255, 255, 0.75); }
+
+/*========================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!STYLE GUIDE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================*/
+.colorSwatches {
+  padding-left: 0; }
+
+.colorSwatches li:first-of-type {
+  margin-left: 0; }
+
+.colorSwatches li {
+  display: inline-block; }
+
+.colorSwatches div {
+  width: 100%;
+  min-width: 80px;
+  height: 80px; }
+
+.stickyNav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 500; }
+
+/*
+seperators for style guide content
+==========================================*/
+.moduleSeperator {
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ccc; }
+
+.moduleSeperator p {
+  font-size: 1em;
+  margin: 0;
+  color: #000; }
+
+/* page top */
+#page-top {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 101px;
+  background-color: #f2f2f2; }
+
+/*------------------------------------*    #MEDIA LIST
+\*------------------------------------*/
+ul.media-list li {
+  list-style-type: none;
+  margin-left: 0; }
+
+/*------------------------------------*    $LAYOUT
+\*------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */

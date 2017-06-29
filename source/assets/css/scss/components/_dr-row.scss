@@ -1,0 +1,86 @@
+
+/*
+Dr Row
+=========================================================================*/
+.drRow img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.drRow .columnFlex {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top:0;
+}
+
+
+.doctorinfo {
+    font-size: 1em;
+    /* font-weight: 100; */
+    line-height: 1.5em;
+    /* letter-spacing: .015em; */
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: .2px;
+}
+
+.doctorinfoHighlite {
+    font-weight: 400;
+    line-height: 3em;
+}
+
+.specialinfoHighlite {
+    font-weight: 400;
+}
+
+.doctorname {
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: .20em;
+    letter-spacing: .025em;
+}
+
+.doctorSeperator {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.doctorSeperator.drRuleOdd, .doctorSeperator.drRuleEven {
+    border-right: 1px solid #e5e5e5;
+}
+
+
+.drRow a {
+	margin-top:15px;
+	display:inline-block;
+}
+
+.customDoctor-btn {
+    /* font-weight: 500; */
+    line-height: 1em;
+    min-width: 100px;
+    /* height: 2.9em; */
+    padding: .65em 1.05em;
+    /* white-space: initial; */
+    /* letter-spacing: 1px; */
+    border-radius: 8px;
+    /* padding-bottom: .7em; */
+    font-size: 15px;
+}
+
+
+.rowFlex.drRow {
+	justify-content:center;
+	font-size:.65rem;
+}
+
+.rowFlex.drRow .columnFlexItem {
+	width:100%;
+}
+
+
+/* for table varient */
+
+.drTable {
+	font-size: .65rem;
+}

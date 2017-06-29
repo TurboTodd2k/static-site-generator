@@ -1,0 +1,10 @@
+img {
+	margin-bottom: 10px;
+	/* IE compatability */
+	-ms-interpolation-mode: bicubic;
+    min-height: 1px;
+}
+
+img:last-child {
+	margin-bottom:0;
+}

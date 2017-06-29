@@ -1,0 +1,54 @@
+/**
+ * Pagination
+ */
+.pagination {
+	overflow: hidden;
+
+	li {
+		float: left;
+		border-right: 1px solid $color-gray-15;
+
+		&:last-child {
+			border: 0;
+		}
+	}
+
+	a {
+		padding: $pad;
+	}
+}
+
+/* 4 - Main Menu
+---------------------------------------------------------------------- */
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#main-menu {
+    border-bottom: 1px solid #f0f1f2;
+    background-color: #fff;
+    min-height: 101px;
+}
+
+#main-menu .container {
+    margin-top: 25px;
+}
+
+.navbar-fixed-top,
+.navbar-default.navbar-fixed-top .navbar-brand,
+.navbar-default.navbar-fixed-top .navbar-brand img {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}

@@ -1,0 +1,40 @@
+
+<div style="width:95%;margin:auto;">
+    {{#each report}}
+        <h2 style="background-color:blue; color: yellow;">{{@key}}</h2>
+        <h3>Errors: {{counters.error}} Notices: {{counters.notice}} Warnings: {{counters.warning}}</h3>
+        <table width="100%">
+            {{#each messageLog }}
+                <tr style="background-color: black; color: white;">
+                    <th style="width: 12%;padding:10px;">Line Number</th>
+                    <th style="width: 88%;padding:10px;"></th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">{{position.lineNumber}}</td>
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td>{{heading}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{issue}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{description}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{element.node}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{element.class}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{element.id}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            {{/each}}
+        </table>
+    {{/each}}
+</div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }}">
+	<head>
+		<title>{{ page.title }}</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="page.description">
+		<meta name="keywords" content="page.keywords">
+		<meta name="viewport" content="width=device-width" />
+
+		<!--stylesheets-->
+		<!-- build2:css:release2 css/tidy-min.css -->
+			<link rel="stylesheet" href="assets/css/bootstrap.css" media="all" />
+			<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="all" />
+			<link rel="stylesheet" href="assets/css/bootstrap-flex.css" media="all" />
+			<link rel="stylesheet" href="assets/css/tidy-Stockton.css" media="all" />
+		<!-- /build2 -->
+
+		<style type="text/css">
+			#hero {
+				background-image: url('assets/images/{{page.heroLeft.heroImg}}');
+			}
+			@media (max-width: 865px) {
+			    #hero {
+			        background-image: url('assets/images/{{page.heroLeft.heroImgSmall}}');
+			    }
+			}
+		</style>
+
+		<!--Bugherd script-->
+		<!-- devProcess:js inline ../../js/includes/bugherd.js -->
+		<!-- /devProcess -->
+
+
+		<!-- build1:remove:release1 -->
+			<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+			{{{ patternLabHead }}}
+			<!-- End Pattern Lab -->
+		<!-- /build1 -->
+
+	</head>
+	<body class="{{ bodyClass }}">
+
+		<!--Google tracking script-->
+		<!-- build1:js inline ../../js/includes/google-tag.js -->
+		<!-- /build1 -->
+

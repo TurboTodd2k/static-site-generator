@@ -1,0 +1,26 @@
+{
+    "heroCenter": {
+        "rowSpacingClass": "marginBottomFull",
+        "heroColorClass": "",
+        "heroDepth": "small",
+        "headline": "Expecting in Stockton?",
+        "subhead": "test",
+        "subheadSupport": "<p>Exceptional care for you and your baby. Serving Stockton for more than 20 years.</p>",
+        "heroImg": "-santa-cruz/santa-cruz-ob-hero.jpg",
+        "heroImgSmall": "-santa-cruz/santa-cruz-ob-hero-mobile.jpg",
+        "anchor": [
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            },
+            {
+                "class": "btn custom-btn btnPrimaryOrange",
+                "cta": "Profound systematic help-desk",
+                "href": "laboris consequat velit est",
+                "target": "_blank"
+            }
+        ]
+    }
+}

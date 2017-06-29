@@ -1,0 +1,29 @@
+{
+    "unorderedList": {
+        "ul": [
+            {
+                "listClass": "list-group",
+                "li": [
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 1 ul"
+                    },
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 2 ul",
+                        "ul": [
+                            {
+                                "li": [
+                                    {
+                                        "listItemClass": "",
+                                        "listItem": "nested list item 3"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

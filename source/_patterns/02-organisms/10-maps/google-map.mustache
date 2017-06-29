@@ -1,0 +1,18 @@
+<!-- Map Section -->
+<div class="container-fluid hidden-xs {{rowSpacingClass}} {{rowClass}}">
+    <!-- map section -->
+    <div class="row ">
+        <section id="map-section" class="section-gray-bg clearfix">
+            <div id="{{name}}" class="mapDisplay">
+            </div>
+        </section>
+    </div>
+    {{#if this.legend}}
+        <!-- map legend -->
+        <div class="rowFlex mapLegend">
+            {{# each mapMarker}}
+                {{> mapLegendContent legend}}
+            {{/ each}}
+        </div>
+    {{/if}}
+</div>

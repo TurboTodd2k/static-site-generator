@@ -1,0 +1,22 @@
+{{#if img}}
+	{{> image img}}
+{{/if}}
+
+
+{{#if heading}}
+	<{{heading.headingTag}} class="{{heading.class}}">{{heading.text}}</{{heading.headingTag}}>
+{{/if}}
+
+
+{{#if body}}
+	{{{body}}}
+{{/if}}
+
+
+{{#or button anchor}}
+	<p>
+	   {{> interaction button }}
+	</p>
+{{/or}}
+
+

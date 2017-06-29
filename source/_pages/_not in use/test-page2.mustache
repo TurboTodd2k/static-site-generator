@@ -1,0 +1,70 @@
+
+
+{{test}}
+
+{{data.placeholder}}
+{{placeholder}}
+
+
+{{#page.sectionTest}}
+	<p>{{sectionTitle}}</p>
+	<hr />
+	<p>{{copy}}</p>
+{{/page.sectionTest}}
+
+
+
+{{>hero}}
+
+<div class="container marginBottomThreeQuarters">
+	<div class="row">
+		{{#page.headerList}}
+		<div class="col-md-4">
+			<h2>{{ sectionTitle }}</h2>
+			<p>
+				{{copy}}
+			</p>
+			{{>button}}
+		</div>
+		{{/page.headerList}}
+	</div>
+</div>
+
+
+<div class="container marginBottomThreeQuarters">
+	{{#test-page2.accordianList}}
+	<div id="{{accordianID}}" class="row marginBottomHalf">
+		<div class="accordianHeader textCenter">
+			<h2>{{ sectionTitle }}</h2>
+			{{> button-groups }}
+		</div>
+		<div class="col-md-12 accordianContainer ">
+
+			<ul data-container-id="residential" class="list-group  {{ listGroupClass }}">
+				{{#listGroupResidential}}
+				<li class="list-group-item">
+					{{placeholder}}
+				</li>
+				{{/listGroupResidential}}
+			</ul>
+
+			<ul data-container-id="business" class="list-group  {{ listGroupClass }}">
+				{{#listGroupBusiness}}
+				<li class="list-group-item">
+					{{placeholder}}
+				</li>
+				{{/listGroupBusiness}}
+			</ul>
+
+		</div>
+	</div>
+	{{/test-page2.accordianList}}
+</div>
+
+
+{{> footer}}
+
+
+
+
+

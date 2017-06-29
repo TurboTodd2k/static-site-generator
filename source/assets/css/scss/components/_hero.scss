@@ -1,0 +1,144 @@
+/*
+Hero
+========================================================================*/
+
+.imgHeroRow,
+.imgCenterRow
+{
+    position: relative;
+}
+
+.imgHero
+{
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vidHero
+{
+    width: 100%;
+}
+
+
+/* set depth of hero image */
+.imgHero.tall
+{
+    padding-top: 48.8%;
+}
+
+.imgHero.medium {
+	padding-top: 48.8%;
+}
+
+.imgHero.small {
+	padding-top:31.75%;
+}
+
+
+/*positioning of copy*/
+
+.imgHeroHeadlineLeft
+{
+    position: absolute;
+    left: 4%;
+}
+
+.imgHeroHeadlineCenter,
+.imgCopyCenter
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+    padding: 0 20px 10px 20px;
+}
+
+.imgHeroHeadlineCenterFull
+{
+    position: absolute;
+}
+
+/*font styles*/
+
+.imgHeroHeadlineLeft p:last-child,
+.imgHeroHeadlineCenter p:last-child
+{
+    margin-bottom: 0;
+}
+
+.imgHeroHeadlineCenter,
+.imgCopyCenter
+{
+    text-align: center;
+}
+
+@media (max-width: 991px)
+{
+    .imgHeroHeadlineLeft,
+    .imgHeroHeadlineCenter
+    {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 874px)
+{
+    .imgHeroHeadlineLeft
+    {
+        width: 45%;
+    }
+
+    /*positioning of copy*/
+    .imgHeroHeadlineLeft
+    {
+        top: 50%;
+
+        transform: translateY(-50%);
+    }
+    .marginBottomHero
+    {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 873px)
+{
+    .imgHeroHeadlineLeft,
+    .imgHeroHeadlineCenter
+    {
+        position: static;
+
+        width: calc(100% - 30px);
+        margin: auto;
+
+        transform: none;
+        text-align: center;
+    }
+    .marginBottomHero
+    {
+        margin-bottom: 53px;
+    }
+    .imgHero
+    {
+        margin-bottom: 26px;
+    }
+    /*color for type*/
+    .imgHeroHeadlineLeft h1,
+    .imgHeroHeadlineLeft h2,
+    .imgHeroHeadlineLeft p,
+    .imgHeroHeadlineCenter h1,
+    .imgHeroHeadlineCenter p
+    {
+        color: white;
+    }
+}
+
+@media (max-width: 865px)
+{
+    .imgHero.tall, .imgHero.medium, .imgHero.small {
+        padding-top: 60.75%;
+    }
+}

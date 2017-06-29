@@ -1,0 +1,12 @@
+<!--  -->
+{{#each colors}}
+	<ul class="colorSwatches">
+		<h3>{{colorTitle}}</h3>
+		{{#each colorList}}
+			<li>
+			<div class="{{colorClass}}"></div>
+		        <span class="sg-label">{{colorHex}}</span>
+		    </li>
+		{{/each}}
+	</ul>
+{{/each}}

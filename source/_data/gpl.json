@@ -1,0 +1,206 @@
+{
+    "navbarBrandText": "GPL",
+    "navbarNavClass": "",
+    "navbarNavFirst": true,
+    "navbarNavLast": {
+        "navbarNavClass": "navbar-right"
+    },
+    "navbar-form": false,
+    "navbarFormClass": "navbar-left",
+    "navbarClass": "navbar-default stickyNav",
+    "navbarNav": [
+        {
+            "url": "sg-atoms.html",
+            "text": "Atoms"
+        },
+        {
+            "url": "sg-molecules.html",
+            "text": "Molecules"
+        },
+        {
+            "url": "sg-organisims.html",
+            "text": "Organisms"
+        },
+        {
+            "url": "sg-sample-type.html",
+            "text": "Type Sample"
+        },
+        {
+            "url": "sg-css.html",
+            "text": "CSS"
+        }
+    ],
+    "colors": [
+        {
+            "colorTitle": "Brand Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorBrand",
+                    "colorHex": "#5C832F"
+                },
+                {
+                    "colorClass": "colorBrandDark",
+                    "colorHex": "#3b4a20"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Lightened Brand Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorBrandGreenLighten10",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenLighten20",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenLighten30",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenLighten40",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenLighten50",
+                    "colorHex": "#"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Darkened Brand Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorBrandGreenDarken5",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenDarken10",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenDarken15",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenDarken20",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBrandGreenDarken25",
+                    "colorHex": "#"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Neutral Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorWhite",
+                    "colorHex": "#fff"
+                },
+                {
+                    "colorClass": "colorGrey15",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorGrey35",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorGrey50",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorGrey65",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorGrey73",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorGrey87",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorBlack",
+                    "colorHex": "#000"
+                },
+                {
+                    "colorClass": "colorDim50",
+                    "colorHex": "N/A"
+                },
+                {
+                    "colorClass": "colorDim70",
+                    "colorHex": "N/a"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Utility Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorUtilityPositive",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityPostitiveSubtle",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityCaution",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityCautionSubtle",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityNegative",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityNegativeSubtle",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityNeutral",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorUtilityNeutralSubtle",
+                    "colorHex": "#"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Heading Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorHeading",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorHeadingAccent",
+                    "colorHex": "#"
+                }
+            ]
+        },
+        {
+            "colorTitle": "Text Colors",
+            "colorList": [
+                {
+                    "colorClass": "colorText",
+                    "colorHex": "#"
+                },
+                {
+                    "colorClass": "colorTextSubtle",
+                    "colorHex": "#"
+                }
+            ]
+        }
+    ]
+}

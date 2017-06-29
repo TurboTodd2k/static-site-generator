@@ -1,0 +1,23 @@
+/*
+@styleguide
+
+@title Button
+
+Use the button classes on and `<a>`, `<button>`, `<input>` elements.
+
+<button class="label label-default">Red Button</button>
+
+	<button class="label label-default">Red Button</button>
+
+<button class="label label-primary">Red Button</button>
+
+	<button class="label label-primary">Red Button</button>
+
+<button class="label label-success">Red Button</button>
+
+	<button class="label label-success">Red Button</button>
+
+<button class="label label-info">Red Button</button>
+
+	<button class="label label-info">Red Button</button>
+*/

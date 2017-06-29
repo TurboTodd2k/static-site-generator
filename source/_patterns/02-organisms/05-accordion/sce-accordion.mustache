@@ -1,0 +1,15 @@
+<div class="row marginBottomHalf">
+	<div class="textCenter">
+		<h2>{{ sectionTitle }}</h2>
+		{{> button-groups }}
+	</div>
+	<div class="col-md-12 collapse">
+		<ul class="list-group {{ listGroupClass }}">
+			{{# listGroup }}
+			<li class="list-group-item">
+				{{{ text }}}
+			</li>
+			{{/ listGroup }}
+		</ul>
+	</div>
+</div>

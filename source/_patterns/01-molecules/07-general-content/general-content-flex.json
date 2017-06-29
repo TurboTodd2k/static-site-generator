@@ -1,0 +1,31 @@
+{
+    "img": {
+        "href": "",
+        "name": "",
+        "src": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "class": ""
+    },
+    "heading": {
+    	"rule": "true",
+    	"headingTag": "",
+    	"headingClass": "",
+    	"text": ""
+    },
+    "rawHTML": "",
+    "button": [
+    	{
+            "buttonClass": "",
+            "cta": ""
+        }
+    ],
+    "anchor": [
+    	{
+		    "href": "",
+		    "class": "",
+		    "target": ""
+		}
+	]
+}

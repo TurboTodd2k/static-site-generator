@@ -1,0 +1,60 @@
+{
+    "maps": [
+        {
+            "rowClass": "",
+            "rowSpacingClass": "marginBottomFull",
+            "name": "map1",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "37.817451",
+                        "markerLong": "-122.2684164",
+                        "text": "Alta Bates",
+                        "rawHTML": "<p><center><b>Alta Bates Summit Medical Center</b></center>Specialties; <b>Orthopedics, Obstetrics</b><br>450 30th St, Oakland, Ca</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Mills-Peninsula",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "map2",
+            "mapLat": "38.55890492",
+            "mapLong": "-121.48544312",
+            "scrollwheel": "false",
+            "panControl": "true",
+            "zoomControl": "true",
+            "zoom": "8",
+            "mapMarker": [
+                {
+                    "marker": {
+                        "markerLat": "38.817451",
+                        "markerLong": "-120.2684164",
+                        "text": "Yer Mama",
+                        "rawHTML": "<p>Yer Mama</p>"
+                    },
+                    "legend": {
+                        "mapIcon": "@",
+                        "facilityName": "Bob's Thrill-o-rama",
+                        "hours": "9 am - 5pm",
+                        "address": "795 El Camino Real <br /> Palo Alto, CA Zip",
+                        "cta": "Find a Doctor",
+                        "ctaAddress": "#"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "dl": [
+        {
+            "terms": [
+                {
+                    "term": "Term",
+                    "definition": "Term definition"
+                }
+            ]
+        }
+    ],
+    "orderedList": {
+        "ol": [
+            {
+                "listClass": "list-group",
+                "li": [
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 1 ol"
+                    },
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 2 ol",
+                        "ol": [
+                            {
+                                "li": [
+                                    {
+                                        "listItemClass": "",
+                                        "listItem": "nested list item 3"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "unorderedList": {
+        "ul": [
+            {
+                "listClass": "list-group",
+                "li": [
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 1 ul"
+                    },
+                    {
+                        "listItemClass": "list-group-item",
+                        "listItem": "list item 2 ul",
+                        "ul": [
+                            {
+                                "li": [
+                                    {
+                                        "listItemClass": "",
+                                        "listItem": "nested list item 3"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "mediaList": [
+        {
+            "mediaLeft": {
+                "mediaClass": "",
+                "url": "",
+                "src": "placeholder://65",
+                "alt": ""
+            },
+            "mediaRight": false,
+            "heading": "Taster's Choice",
+            "text": "Lorem Ipsum Dolor Sit Amet",
+            "nestedMedia": [
+                {
+                    "mediaLeft": {
+                        "mediaClass": "",
+                        "url": "",
+                        "src": "placeholder://65",
+                        "alt": ""
+                    },
+                    "mediaRight": false,
+                    "heading": "Dr. Fruit Topping",
+                    "text": "Lorem Ipsum Dolor Sit Amet"
+                }
+            ]
+        },
+        {
+            "mediaLeft": false,
+            "mediaRight": {
+                "mediaClass": "",
+                "url": "",
+                "src": "placeholder://65",
+                "alt": ""
+            },
+            "heading": "Taster's Choice",
+            "text": "Lorem Ipsum Dolor Sit Amet",
+            "nestedMedia": [
+                {
+                    "mediaLeft": false,
+                    "mediaRight": {
+                        "mediaClass": "",
+                        "url": "",
+                        "src": "placeholder://65",
+                        "alt": ""
+                    },
+                    "heading": "Whacky Pacakges",
+                    "text": "Koduck"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+/*
+Headings
+========================================================================*/
+
+h1,
+h2,
+.fauxH2,
+h3,
+.fauxH3,
+h4,
+.psudoH4,
+.fauxH4,
+h5,
+.psudoH5,
+.fauxH5,
+h6 {
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+    margin: 0;
+    margin-bottom: .25em;
+    text-decoration: none;
+    color: $color-heading;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: .10em;
+    letter-spacing: .025em;
+    word-spacing: .015em;
+    -webkit-text-stroke: .2px;
+}
+
+h2,
+.fauxH2 {
+    font-size: 28px;
+     color: #353535;
+    letter-spacing: .035em;
+    -webkit-text-stroke: .3px;
+}
+
+.imgHeroHeadlineLeft h2 {
+    margin-bottom: .75em;
+}
+
+.imgHeroHeadlineLeft .fauxH2 {
+    margin-bottom: .75em;
+}
+
+h3,
+.fauxH3 {
+    font-size: 1.6em;
+    letter-spacing: .025em;
+    color: $color-heading-accent;
+}
+
+img + .fauxH3,
+img + h3 {
+    margin-top: .55em;
+}
+
+h4,
+.psudoH4,
+.fauxH4 {
+    font-size: 1.4em;
+
+}
+
+h5,
+.psudoH5,
+.fauxH5 {
+    font-size: 1.2em;
+}
+
+h6,.psudoH6 {
+	font-size:1em;
+}
+
+.psudoH4 img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.expansionH4 {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+
+h2:last-child, h3:last-child,h4:last-child,h5:last-child,h6:last-child, fauxh2:last-child,
+fauxh3:last-child,
+fauxh4:last-child  {
+	margin-bottom:0;
+}
+
+/*heading rule classes*/
+
+.ruleCenter,
+.ruleFlush {
+    /* line-height: 30px; */
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+// .ruleShort .ruleCenter,
+// .ruleShort .ruleFlush {
+// margin-bottom: 41px;
+// }
+
+
+.ruleCenterParent {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ruleCenter:before,
+.ruleFlush:before {
+    position: absolute;
+    top: calc(100% + 1em);
+    content: '';
+    border-top: 1px solid;
+}
+
+.ruleCenter:before {
+    left: 50%;
+    width: 150%;
+    /* max-width: calc(100vw - 30px); */
+    transform: translatex(-50%);
+}
+
+.ruleFlush:before {
+    width: 100%;
+}
+
+

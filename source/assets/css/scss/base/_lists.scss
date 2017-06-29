@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Ordered/Unordered list base styles
+ */
+ol, ul {
+	margin-bottom: .75em;
+}
+
+/**
+ * Definition list base styles
+ */
+dl {
+	overflow: hidden;
+	margin: 0 0 $space;
+}
+
+/**
+ * Terms/Names base styles
+ */
+dt {
+	font-weight: bold;
+}
+
+/**
+ * Definition list description base styles
+ */
+dd {
+	margin-left: 0;
+}
+
+
+li {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: .015em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: .2px;
+    margin-bottom: .25em;
+    margin-left: 1.55em;
+    list-style: initial;
+}
+

@@ -1,0 +1,138 @@
+{
+    "gallery2": {
+        "rowClass": "",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorLtGreyGreen",
+                "galleryItemRollover": "true",
+                "overlay": {
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "OVERLAY",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>"
+                },
+                "base": {
+                    "bkgndColor": "bkgndColorLtGreyGreen",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "BASE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  quis nostrud exercitation ullamco laboris nisi , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "bkgndColor": "bkgndColorLtGreyGreen",
+                "base": {
+                    "bkgndColor": "bkgndColorLtGreyGreen",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "STATIC",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-6-flex",
+                "bkgndColor": "bkgndColorLtGreyGreen",
+                "galleryItemRollover": "true",
+                "overlay": {
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "OVERLAY",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>"
+                },
+                "base": {
+                    "bkgndColor": "bkgndColorLtGreyGreen",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "BASE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  quis nostrud exercitation ullamco laboris nisi , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-6-flex",
+                "bkgndColor": "bkgndColorLtGreyGreen",
+                "base": {
+                    "bkgndColor": "bkgndColorLtGreyGreen",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "STATIC",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            },
+            {
+                "widthClass": "col-lg-4-flex col-sm-12-flex",
+                "bkgndColor": "bkgndColorLtGreyGreen",
+                "base": {
+                    "bkgndColor": "bkgndColorLtGreyGreen",
+                    "vertPos": "columnFlexItemVTop",
+                    "heading": {
+                        "headingTag": "h4",
+                        "text": "I SWITCH SIZE",
+                        "class": ""
+                    },
+                    "rawHTML": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>",
+                    "anchor": [
+                        {
+                            "class": "btn custom-btn btnSecondaryWhite",
+                            "href": "#",
+                            "target": "_blank",
+                            "cta": "PUSH THE BUTTON!"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

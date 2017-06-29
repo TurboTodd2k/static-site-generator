@@ -1,0 +1,18 @@
+<div class="text">
+    {{#each ol}}
+        <ol class="{{listClass}}">
+            {{#each li}}
+                <li class="{{listItemClass}}">
+                    {{ listItem }}
+                    {{#each ol}}
+                        <ol class="{{listClass}}">
+                            {{#each li}}
+                                <li class="{{listItemClass}}">{{ listItem }}</li>
+                            {{/each}}
+                        </ol>
+                    {{/each}}
+                </li>
+            {{/each}}
+        </ol>
+    {{/each}}
+</div>

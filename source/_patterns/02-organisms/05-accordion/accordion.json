@@ -1,0 +1,84 @@
+{
+    "accordionSample": {
+        "rowClass": "accordion",
+        "rowSpacingClass": "marginBottomFull",
+        "widthClass": "col-md-12",
+        "accordionGroupID": "testAccordion",
+        "accordion": [
+            {
+                "accordionHeadID": "fred1",
+                "accordionContentID": "fred3",
+                "accordionHeading": {
+                    "headerClass": "fred",
+                    "columns": [
+                        {
+                            "widthClass": "col-auto-flex",
+                            "styleClass": "accordionState",
+                            "rawHTML": ""
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVCenter",
+                            "img": {
+                                "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                                "width": "80px",
+                                "height": "80px",
+                                "alt": "icon"
+                            }
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVCenter",
+                            "heading": {
+                                "headingTag": "h3",
+                                "text": "fred heading"
+                            },
+                            "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>"
+                        }
+                    ]
+                },
+                "accordionContent": {
+                    "panelClass": "",
+                    "rawHTML": "fred body"
+                }
+            },
+            {
+                "accordionHeadID": "fred4",
+                "accordionContentID": "fred6",
+                "accordionHeading": {
+                    "headerClass": "fred",
+                    "columns": [
+                        {
+                            "widthClass": "col-auto-flex",
+                            "styleClass": "accordionState",
+                            "rawHTML": ""
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVTop",
+                            "img": {
+                                "src": "assets/images/-icons/Find-a-doctor_Icon_lrg.png",
+                                "width": "80px",
+                                "height": "80px",
+                                "alt": "icon"
+                            }
+                        },
+                        {
+                            "widthClass": "col-auto-flex",
+                            "vertAlign": "columnFlexItemVTop",
+                            "heading": {
+                                "headingTag": "h3",
+                                "text": "fred heading"
+                            },
+                            "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>"
+                        }
+                    ]
+                },
+                "accordionContent": {
+                    "panelClass": "",
+                    "rawHTML": "fred body"
+                }
+            }
+        ]
+    }
+}

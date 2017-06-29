@@ -1,0 +1,37 @@
+{
+    "bottomBlocks": {
+        "rowClass": "fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "block1": {
+            "quote": "From the moment we arrived at the hospital, I felt confident that I was getting the best care. Everyone was unbelievably experienced and knowledgeable. And I could tell all of them love their jobs. There is no doubt that my next baby will be born at Sutter!",
+            "userName": "Nicole K, OB Patient"
+        },
+        "block2": {
+            "heading": {
+                "headingTag": "h3",
+                "headingClass": "",
+                "text": "From Annual Check-Ups to Baby Bumps, We’ve Got You Covered."
+            },
+            "rawHTML": "A happy life starts with a healthy beginning. With more than 30,000 babies born each year at Sutter Health Hospitals, the physicians, nurses and support staff understand what it takes to provide the very best experience for infants, new mothers and their families."
+        },
+        "block3": {
+            "heading": {
+                "headingTag": "h3",
+                "headingClass": "",
+                "text": "From Annual Check-Ups to Baby Bumps, We’ve Got You Covered."
+            },
+            "rawHTML": "Contraceptive Counseling <br /> High-Risk Pregnancy Management <br /> Prenatal Care <br /> Nurse-Midwife <br /> Birthing Centers <br /> And More",
+            "anchor": [
+                {
+                    "cta": "PUSH THE BUTTON!",
+                    "address": "#",
+                    "class": "btn custom-btn btnPrimaryOrange"
+                }
+            ]
+        },
+        "block4": {
+            "src": "assets/images/this.jpg",
+            "alt": "an image"
+        }
+    }
+}

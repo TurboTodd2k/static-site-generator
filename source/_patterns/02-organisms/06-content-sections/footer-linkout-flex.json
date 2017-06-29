@@ -1,0 +1,36 @@
+{
+    "linkout": {
+        "rowClass": "borderDkGreen fatPad",
+        "rowSpacingClass": "marginBottomFull",
+        "columns": [
+            {
+                "widthClass": "col-md-6-flex",
+                "heading": {
+                    "headingTag": "h3",
+                    "headingClass": "ruleCenter",
+                    "text": "Among the Nations Finest"
+                },
+                "rawHTML": "<p>When you choose Sutter East Bay, you’re in the hands of an award-winning team.</p>",
+                "anchor": [
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Five Stars for Paient Care",
+                        "address": "#"
+                    },
+                    {
+                        "class": "btn custom-btn btnSecondaryWhite",
+                        "cta": "Quality Performer",
+                        "address": "#"
+                    }
+                ]
+            },
+            {
+                "widthClass": "col-md-6-flex",
+                "quote": {
+                    "quote": "“From the moment we arrived at the hospital, I felt confident that I was getting the best care. Everyone was unbelievably experienced and knowledgeable. And I could tell all of them love their jobs. There is no doubt that my next baby will be born at Sutter!”",
+                    "userName": "Nicole K, OB Patient"
+                }
+            }
+        ]
+    }
+}

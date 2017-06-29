@@ -1,0 +1,96 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+    <!-- flex row -->
+    <!-- THIS IS HOW IT'S BUILT -->
+    <div class=" rowFlex hidden-xs hidden-sm">
+        {{# this.columns }}
+            <div class="{{class}} {{this.widthClass}}">
+                {{#if img}}
+                    {{#each img}}
+                        {{# if href}}<a href="{{{img.href}}}" name="{{img.name}}" id="{{img.name}}" target="_blank">{{/ if}}{{> image }}{{# if href}}</a>{{/if}}
+                {{/ each}}
+                {{/if}}
+                <div class="columnFlex {{bkgndColor}} {{# unless heading}} {{# unless body}} {{# unless button}} {{#unless rawHTML}} noPad {{/ unless}} {{/ unless}} {{/ unless}} {{/ unless}}">
+                    <!-- this picks which version of the  flexItem gets used -->
+                    <!-- this is the centered content -->
+                    <div class="columnFlexItem columnFlexItemVTop ">
+                        <div class="serviceLineWrap">
+                            {{#or heading rawHTML}}
+                                <div>
+                                    {{#if heading}}
+                                        {{> heading heading}}
+                                    {{/if}}
+                                    {{#if rawHTML}}
+                                        {{{rawHTML}}}
+                                    {{/if}}
+                                </div>
+                            {{/or}}
+                        </div>
+                    </div>
+                    {{#or button anchor}}
+                        <div class="columnFlexItem columnFlexItemVBottom">
+                            <div class="  rowFlex rowFlexMultiCTA ">
+                                {{# if button}}
+                                    {{#each button}}
+                                        <div class="columnFlexItem flexMultCTA">
+                                            <div class="serviceLineWrap">
+                                                {{> button}}
+                                            </div>
+                                        </div>
+                                    {{/each}}
+                                    {{/if}}
+                                    {{#if anchor}}
+                                        {{#each anchor}}
+                                            <div class="columnFlexItem flexMultCTA">
+                                                <div class="serviceLineWrap">
+                                                    {{> anchor}}
+                                                </div>
+                                            </div>
+                                        {{/each}}
+                                    {{/if}}
+                            </div>
+                        </div>
+                    {{/or}}
+                </div>
+            </div>
+            {{/ this.columns }}
+    </div>
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- THIS IS THE 2 COL LAYOUT -->
+    <!-- flex row -->
+    <div class=" rowFlex hidden-md hidden-lg">
+        {{# this.columns }}
+            <div class="{{class}} {{this.widthClass}}">
+                <div class=" rowFlex {{bkgndColor}} ">
+                    <!-- this is bottom aligned -->
+                    <div class="  col-sm-5-flex">
+                        {{#if img}}
+                            {{# each img}}
+                                {{# if href}}<a href="{{{img.href}}}" name="{{img.name}}" id="{{img.name}}" target="_blank">{{/ if}}{{> image }}{{# if href}}</a>{{/if}}
+                        {{/each}}
+                        {{/if}}
+                    </div>
+                    <div class="columnFlexItemVCenter col-sm-7-flex">
+                        <div class="serviceLineWrap">
+                            {{> general-content-noCTA-noImage-flex }}
+                        </div>
+                        <div class="  rowFlex rowFlexMultiCTA ">
+                            <div class="columnFlexItem flexMultCTA">
+                                {{#if anchor}}
+                                    {{#each anchor}}
+                                        <div class="serviceLineWrap">
+                                            {{> anchor}}
+                                        </div>
+                                    {{/each}}
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/ this.columns }}
+    </div>
+</div>

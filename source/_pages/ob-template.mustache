@@ -1,0 +1,16 @@
+{{> hero-left page.hero}}
+{{> generic-content-flex page.introRow2}}
+
+{{> jump-anchor}}
+
+{{# if drRow}}
+	{{> dr-row-flex page.drRow}}
+{{else}}
+	<h2 class="textCenter">Drs not available!</h2>
+{{/if}}
+
+{{> generic-content-flex page.mapIntro}}
+{{> google-map page.maps.[0]}}
+
+
+{{> bottom-grid-flex page.bottomBlocks}}

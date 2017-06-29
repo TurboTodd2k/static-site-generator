@@ -1,0 +1,34 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+    <!-- flex row -->
+    <div class=" rowFlex ">
+
+        <div class="{{this.columns.[0].widthClass}}">
+            <div class="columnFlex">
+                <div class="columnFlexItem columnFlexItemVCenter ">
+                    <!-- this is the  bottom aligned CTAs -->
+                    <div class="columnFlexItem columnFlexItemVCenter ">
+                        {{> general-content-noCTA-flex this.columns.[0] }}
+                        <!-- this inserts the CTAs -->
+                        {{#if button.length }}
+	                        <div class="  rowFlex rowFlexMultiCTA ">
+	                            {{# button }}
+	                            <div class="columnFlexItem flexMultCTA">
+	                                {{> interaction}}
+	                            </div>
+	                            {{/button}}
+	                        </div>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="{{this.columns.[1].widthClass}}">
+            <div class="columnFlex bkgndColorDkGreen">
+                <div class="columnFlexItem columnFlexItemVCenter ">
+                    {{> user-quote this.columns.[1].quote }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,131 @@
+
+  {
+    "title": "Down-sized background definition",
+    "description": "fugiat Lorem mollit aliquip",
+    "keywords": "sunt Excepteur et consequat",
+    "hero": {
+      "headline": "voluptas sequi praesentium in Jeanfort, omnis fugiat illum",
+      "subhead": "sticky cultivate infomediaries",
+      "subheadSupport": "Aut ut et sapiente. Labore ut dolorem quidem harum quasi et animi ullam numquam. Qui rerum et beatae. Veniam qui sed molestias sed molestiae assumenda nulla blanditiis laborum.",
+      "heroImg": "-primary-care/primary-hero.jpg",
+      "heroImgSmall": "minim labore anim do",
+      "button": [
+        {
+          "buttonClass": "est in officia quis",
+          "cta": "User-friendly methodical hub",
+          "address": "es"
+        }
+      ]
+    },
+    "drs": [
+      {
+        "widthClass": "col-md-4-flex",
+        "image": {
+          "src": "assets/images/-drs/nakashima.jpeg",
+          "alt": "occaecat magna"
+        },
+        "drName": "Liza Pouros",
+        "drFocus": "ullamco aute",
+        "phone-number": {
+          "phNumMachine": "(750) 855-7028",
+          "phNumHuman": "anim"
+        },
+        "anchor": [
+          {
+            "class": "btn custom-btn btnSecondaryWhite",
+            "cta": "laboris cupidatat",
+            "address": "officia incididunt consequat"
+          },
+          {
+            "class": "btn custom-btn btnSecondaryWhite",
+            "cta": "ipsum fugiat",
+            "address": "veniam Duis"
+          }
+        ]
+      },
+      {
+        "widthClass": "col-md-3-flex",
+        "image": {
+          "src": "assets/images/-drs/sackschewsky.jpeg",
+          "alt": "esse cup"
+        },
+        "drName": "Sammie Walker",
+        "drFocus": "minim quis",
+        "phone-number": {
+          "phNumMachine": "1-018-004-1048",
+          "phNumHuman": "ipsum dolore sint sit"
+        },
+        "anchor": [
+          {
+            "class": "btn custom-btn btnSecondaryWhite",
+            "cta": "ipsum",
+            "address": "amet reprehenderit voluptate"
+          },
+          {
+            "class": "btn custom-btn btnSecondaryWhite",
+            "cta": "voluptate",
+            "address": "cillum eu non"
+          }
+        ]
+      }
+    ],
+    "mapLegend": [
+      {
+        "mapIcon": "@",
+        "facilityName": "Botsford Inc eyeballs",
+        "hours": "aute",
+        "address": "7369 Swift Cliff <br /> West Henri, 24831",
+        "cta": "elit",
+        "ctaAddress": "reprehenderit dolore nostrud"
+      },
+      {
+        "mapIcon": "@",
+        "facilityName": "Hyatt - Funk e-services",
+        "hours": "culpa Ut ex in",
+        "address": "26631 Jovanny Vista <br /> Kutchshire, 45273-4828",
+        "cta": "fugiat do velit",
+        "ctaAddress": "magna sunt laborum qui"
+      },
+      {
+        "mapIcon": "@",
+        "facilityName": "Durgan - Zboncak interfaces",
+        "hours": "eu aliqua dolor",
+        "address": "9401 Sibyl Inlet <br /> West Tristian, 73996-3934",
+        "cta": "qui",
+        "ctaAddress": "enim in"
+      }
+    ],
+    "bottomBlocks": {
+      "block1": {
+        "quote": "fugiat",
+        "userName": "ea culpa"
+      },
+      "block2": {
+        "heading": {
+          "headingTag": "h3",
+          "headingClass": "eiusmod sit",
+          "text": "proident eiusmod irure"
+        },
+        "rawHTML": "Et impedit quae nobis atque corrupti sed recusandae enim et. Nulla repellendus labore. Ad eum voluptatibus ut quisquam cumque dolor. Autem possimus nobis qui velit nesciunt."
+      },
+      "block3": {
+        "heading": {
+          "headingTag": "h3",
+          "headingClass": "commodo quis",
+          "text": "occaecat eiusmod velit veniam"
+        },
+        "rawHTML": "Consectetur qui numquam. Assumenda ad quia neque velit molestiae quod aut. Quaerat consectetur sed aut exercitationem tempora. Officiis eius tenetur ipsum. Nesciunt voluptatem ducimus reprehenderit ea possimus.",
+        "anchor": [
+          {
+            "class": "btn custom-btn btnPrimaryOrange",
+            "cta": "in laboris quis cillum",
+            "address": "in velit irure in"
+          }
+        ]
+      },
+      "block4": {
+        "src": "http://lorempixel.com/640/480",
+        "alt": "qui proident"
+      }
+    }
+  }

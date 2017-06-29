@@ -1,0 +1,67 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+    <!-- flex row -->
+    <div class=" rowFlex ">
+        <div class="col-md-6-flex">
+            <div class="columnFlex {{this.columns.[0].bkgndColor}} {{# unless this.columns.[0].heading}} {{# unless this.columns.[0].body}} {{# unless this.columns.[0].button}} noPad {{/ unless}} {{/ unless}} {{/ unless}}">
+                <!-- this picks which version of the  flexItem gets used -->
+                <!-- this is the bottom aligned CTAs -->
+                <div class="columnFlexItem columnFlexItemVCenter ">
+                    {{> general-content-noCTA-flex this.columns.[0] }}
+                    <!-- this inserts the CTAs -->
+                    {{#if this.columns.[0].button}}
+	                    <div class="  rowFlex rowFlexMultiCTA ">
+	                        {{# button }}
+	                        <div class="columnFlexItem flexMultCTA">
+	                            {{> interaction}}
+	                        </div>
+	                        {{/button}}
+	                    </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6-flex">
+            <div class="columnFlex {{bkgndColor}} {{# unless heading}} {{# unless body}} {{# unless button}} noPad {{/ unless}} {{/ unless}} {{/ unless}}">
+				{{> video-embed this.columns.[1] }}
+            </div>
+        </div>
+        <div class="col-md-6-flex">
+            <div class="columnFlex {{bkgndColor}} {{# unless this.columns.[2].heading}} {{# unless this.columns.[2].body}} {{# unless this.columns.[2].button}} noPad {{/ unless}} {{/ unless}} {{/ unless}}">
+                <!-- this picks which version of the  flexItem gets used -->
+                <!-- this is the bottom aligned CTAs -->
+                <div class="columnFlexItem columnFlexItemVCenter ">
+                    {{> general-content-noCTA-flex this.columns.[2] }}
+                    <!-- this inserts the CTAs -->
+                    {{#if button}}
+	                    <div class="  rowFlex rowFlexMultiCTA ">
+	                        {{# button }}
+	                        <div class="columnFlexItem flexMultCTA">
+	                            {{> interaction}}
+	                        </div>
+	                        {{/button}}
+	                    </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6-flex">
+            <div class="columnFlex {{this.columns.[3].bkgndColor}} {{# unless this.columns.[3].heading}} {{# unless this.columns.[3].body}} {{# unless this.columns.[3].button}} noPad {{/ unless}} {{/ unless}} {{/ unless}}">
+                <!-- this picks which version of the  flexItem gets used -->
+                <!-- this is the bottom aligned CTAs -->
+                <div class="columnFlexItem columnFlexItemVCenter ">
+                    {{> general-content-noCTA-flex this.columns.[3]  }}
+                    <!-- this inserts the CTAs -->
+                    {{#if button}}
+	                    <div class="  rowFlex rowFlexMultiCTA ">
+	                        {{# button }}
+	                        <div class="columnFlexItem flexMultCTA">
+	                            {{> interaction}}
+	                        </div>
+	                        {{/button}}
+	                    </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

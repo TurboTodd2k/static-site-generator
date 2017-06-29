@@ -1,0 +1,17 @@
+{{#if img}}
+	{{# if href}}<a href="{{{img.href}}}" name="{{img.name}}" id="{{img.name}}" target="_blank">{{/ if}}{{> image img}}{{# if href}}</a>{{/if}}
+{{/if}}
+
+{{#or heading rawHTML}}
+	<div>
+		{{#if heading}}
+
+				{{> heading heading}}
+
+		{{/if}}
+
+		{{#if rawHTML}}
+			{{{rawHTML}}}
+		{{/if}}
+	</div>
+{{/or}}

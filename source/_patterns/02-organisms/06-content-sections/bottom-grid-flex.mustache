@@ -1,0 +1,37 @@
+<div class="container {{rowSpacingClass}} {{rowClass}}">
+    <!-- flex row -->
+    <div class=" rowFlex row-flex-wrap ">
+        <!-- item one -->
+		<div class="col-md-6-flex bkgndColorDkGreen">
+	        <div class="columnFlex" >
+                <div class="columnFlexItem columnFlexItemVCenter">
+                    {{> user-quote this.block1 }}
+                </div>
+			</div>
+        </div>
+        <!-- item one -->
+        <div class=" col-md-6-flex textCenter">
+            <div class="columnFlex">
+                <div class="columnFlexItem columnFlexItemVCenter">
+                   {{> general-content-flex this.block2 }}
+                </div>
+            </div>
+        </div>
+        <!-- item one -->
+        <div class="col-md-6-flex textCenter borderDkGreen">
+            <div class="columnFlex">
+                <div class="columnFlexItem columnFlexItemVCenter">
+                    {{> general-content-flex this.block3 }}
+                </div>
+            </div>
+        </div>
+        <!-- item one -->
+        <div class="col-md-6-flex">
+			<div class="columnFlex noPad">
+	            <div class="columnFlexItem">
+					{{> image this.block4 }}
+	            </div>
+			</div>
+        </div>
+    </div>
+</div>

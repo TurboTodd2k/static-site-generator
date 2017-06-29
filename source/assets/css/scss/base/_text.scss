@@ -1,0 +1,74 @@
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+
+/**
+ * Paragraph base styles
+ */
+p {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: .015em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: .2px;
+}
+
+p {
+    margin-bottom: $space;
+}
+
+p.small {
+	font-size: .8em;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.imgHeroHeadlineLeft p,
+.imgHeroHeadlineCenter p {
+    font-size: 1.2em;
+    line-height: 1.355em;
+}
+
+p.smallIntro {
+    font-size: 1.2em;
+}
+
+/**
+ * Blockquote base styles
+ */
+blockquote {
+    font-style:italic;
+    border-left: 1px solid $color-gray-50;
+    color: $color-gray-50;
+	padding-left: $pad;
+	margin-bottom: $space;
+}
+
+/**
+ * Horizontal rule base styles
+ */
+hr {
+	border: 0;
+    height: 2px;
+    background: $color-gray-15;
+    margin: $space-double 0;
+}
+
+/**
+ * Abbreviation base styles
+ */
+abbr {
+    border-bottom: 1px dotted $color-gray-50;
+    cursor: help;
+}
+
+
+
+
+
+
+
+

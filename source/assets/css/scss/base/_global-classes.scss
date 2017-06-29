@@ -1,0 +1,144 @@
+
+/*------------------------------------*\
+    #GLOBAL CLASSES
+\*------------------------------------*/
+
+
+/*
+@styleguide
+# Global Classes
+
+## Visibility
+
+Classes for setting visibility
+
+.is-hidden -Remove from the flow and screen readers.
+.is-vishidden -Completely remove from the flow but leave available to screen readers.
+*/
+
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.is-vishidden {
+    position: absolute !important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/*
+@styleguide
+
+## Text Alignment
+
+Classes for setting text alignment
+
+<p class="textRight">.textRight -Set text alignment right</p>
+<p class="textCenter">.textCenter -Set text alignment center</p>
+<p class="textLeft">.textLeft -Set text alignment left</p>
+
+	<p class="textRight">.textRight -Set text alignment right</p>
+	<p class="textCenter">.textCenter -Set text alignment center</p>
+	<p class="textLeft">.textLeft -Set text alignment left</p>
+*/
+
+.textRight {
+	text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+
+
+
+/*
+@styleguide
+
+## Text Size Adjustment
+
+Classes for setting local text-size adjustments
+
+<p class="textSmall">This is small</p>
+<p class="textSmaller">This is smaller</p>
+<p class="textSmallest">This is smallest</p>
+
+	<p class="textSmall">This is small</p>
+	<p class="textSmaller">This is smaller</p>
+	<p class="textSmallest">This is smallest</p>
+
+*/
+
+
+.textSmall {
+	font-size: .85rem;
+}
+
+.textSmaller {
+	font-size: .75rem;
+}
+
+.textSmallest {
+	font-size: .65rem;
+}
+
+
+/*
+@styleguide
+
+## Padding control
+
+ Classes for setting padding
+
+	<p class="textRight">.noPad -remove all padding</p>
+	<p class="textCenter">.fatPad -extra padding for flex items</p>
+*/
+
+.noPad {padding:0 !important;}
+
+.fatPad .columnFlex {
+	padding:35px;
+}
+
+
+/*
+@styleguide
+
+## Borders
+
+ Classes for setting borders on elements
+
+	<p class="borderDkGreen">sets a 5px dark green border</p>
+
+*/
+
+.borderDkGreen {
+    /* padding: 0 15px !important; */
+    border: 5px solid #25787e;
+}
+
+/*
+@styleguide
+
+## Corner Rounding
+
+ Classes for rounding corners of elements
+
+	<p class="cornerRound">and now you have a 5px radius rounded corner</p>
+
+*/
+
+.cornerRound {
+    border-radius: 5px;
+}
